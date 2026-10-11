@@ -98,7 +98,7 @@ parallel against one ingest of the state.
 agree with themselves. Fix the taxonomy first.
 
 <!-- catalogued-intent-routing:start -->
-**Intent routing** in the catalogue: 36 rows, [each listed with its caveats](by-pattern/intent-routing.md) · [the site's filter](https://kydlikebtc.github.io/awesome-jev/?p=intent-routing&lang=en).
+**Intent routing** in the catalogue: 37 rows, [each listed with its caveats](by-pattern/intent-routing.md) · [the site's filter](https://kydlikebtc.github.io/awesome-jev/?p=intent-routing&lang=en).
 <!-- catalogued-intent-routing:end -->
 
 ---
@@ -218,7 +218,7 @@ tiers in code — the second is easier to re-tune when your tiers change.
 the cheap path is genuinely adequate for the easy cases before building a router.
 
 <!-- catalogued-model-routing:start -->
-**Model routing** in the catalogue: 44 rows, [each listed with its caveats](by-pattern/model-routing.md) · [the site's filter](https://kydlikebtc.github.io/awesome-jev/?p=model-routing&lang=en).
+**Model routing** in the catalogue: 45 rows, [each listed with its caveats](by-pattern/model-routing.md) · [the site's filter](https://kydlikebtc.github.io/awesome-jev/?p=model-routing&lang=en).
 <!-- catalogued-model-routing:end -->
 
 ---
@@ -351,7 +351,7 @@ deterministic rule.
 best-documented starting point.
 
 <!-- catalogued-support-triage:start -->
-**Support triage** in the catalogue: 8 rows, [each listed with its caveats](by-pattern/support-triage.md) · [the site's filter](https://kydlikebtc.github.io/awesome-jev/?p=support-triage&lang=en).
+**Support triage** in the catalogue: 9 rows, [each listed with its caveats](by-pattern/support-triage.md) · [the site's filter](https://kydlikebtc.github.io/awesome-jev/?p=support-triage&lang=en).
 <!-- catalogued-support-triage:end -->
 
 ---

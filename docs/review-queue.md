@@ -15,7 +15,7 @@ Rows a script has singled out for a person to read. Each entry is a machine sign
 | [Tool selection resting on words the keyword rules no longer count · 工具选择只靠关键词规则已不再计入的词](#tool-selection-broad-words) | 65 |
 | [Overview rows with code, not yet indexed by pattern · 带代码、尚未按模式索引的 overview 行](#unsorted-overview) | 252 |
 | [Rows with code whose summary names nothing about Jev · 带代码、摘要没有提到 Jev 的行](#generic-summary) | 101 |
-| [Benchmark measurements no person has read against the report · 尚无人对照报告核读的基准测试测量](#measurement-unread) | 25 |
+| [Benchmark measurements no person has read against the report · 尚无人对照报告核读的基准测试测量](#measurement-unread) | 26 |
 | [Interfaces of alternatives no person has read in the cited files · 尚无人在所引文件中核读的替代实现接口](#wire-unread) | 14 |
 | [Thresholds no person has read in the cited file · 尚无人在所引文件中核读的阈值](#thresholds-unread) | 32 |
 
@@ -172,6 +172,7 @@ To take a row off, read the project against [`tool-selection`](patterns.md#tool-
 | [azdaja](https://kydlikebtc.github.io/awesome-jev/?lang=en#azdaja) | ★10+ | `tool-selection` | `tool-selection` | `overview` |
 | [discern](https://kydlikebtc.github.io/awesome-jev/?lang=en#discern) | ★10+ | `tool-selection` `human-escalation` | `tool-selection` `human-escalation` | `human-escalation` |
 | [dsh-jev-buberlo](https://kydlikebtc.github.io/awesome-jev/?lang=en#dsh-jev-buberlo) | ★10+ | `tool-selection` | `tool-selection` | `overview` |
+| [dsh-jev-zhangxaochen](https://kydlikebtc.github.io/awesome-jev/?lang=en#dsh-jev-zhangxaochen) | ★10+ | `tool-selection` | `tool-selection` | `overview` |
 | [eutrya](https://kydlikebtc.github.io/awesome-jev/?lang=en#eutrya) | ★10+ | `tool-selection` | `tool-selection` | `overview` |
 | [jcr](https://kydlikebtc.github.io/awesome-jev/?lang=en#jcr) | ★10+ | `tool-selection` | `tool-selection` | `overview` |
 | [jev-agent-design-with-topk-logits-choices](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-agent-design-with-topk-logits-choices) | ★10+ | `tool-selection` | `tool-selection` `content-scoring` | `content-scoring` |
@@ -193,7 +194,6 @@ To take a row off, read the project against [`tool-selection`](patterns.md#tool-
 | [casse-brique-typesafe](https://kydlikebtc.github.io/awesome-jev/?lang=en#casse-brique-typesafe) |  | `tool-selection` | `tool-selection` | `overview` |
 | [datajev](https://kydlikebtc.github.io/awesome-jev/?lang=en#datajev) |  | `tool-selection` `output-validation` | `tool-selection` `output-validation` | `output-validation` |
 | [deepseek-harness-jev-pre-compaction](https://kydlikebtc.github.io/awesome-jev/?lang=en#deepseek-harness-jev-pre-compaction) |  | `tool-selection` `context-compaction` | `tool-selection` `context-compaction` | `context-compaction` |
-| [dsh-jev-zhangxaochen](https://kydlikebtc.github.io/awesome-jev/?lang=en#dsh-jev-zhangxaochen) |  | `tool-selection` | `tool-selection` | `overview` |
 | [dsh-jev-prune](https://kydlikebtc.github.io/awesome-jev/?lang=en#dsh-jev-prune) |  | `tool-selection` `content-scoring` `context-compaction` | `tool-selection` `content-scoring` `context-compaction` | `content-scoring` `context-compaction` `document-triage` |
 | [dsh-jev-verify](https://kydlikebtc.github.io/awesome-jev/?lang=en#dsh-jev-verify) |  | `tool-selection` `output-validation` `content-scoring` | `tool-selection` `output-validation` `content-scoring` | `output-validation` `content-scoring` |
 | [fast-compaction-dsh](https://kydlikebtc.github.io/awesome-jev/?lang=en#fast-compaction-dsh) |  | `tool-selection` `context-compaction` | `tool-selection` `context-compaction` | `context-compaction` |
@@ -347,6 +347,7 @@ To take a row off, read the project against [the patterns](patterns.md). Put the
 | [st-jeved](https://kydlikebtc.github.io/awesome-jev/?lang=en#st-jeved) | `plugin` | ★10+ | — |
 | [switchboard](https://kydlikebtc.github.io/awesome-jev/?lang=en#switchboard) | `plugin` | ★10+ | — |
 | [trade-jev](https://kydlikebtc.github.io/awesome-jev/?lang=en#trade-jev) | `project` | ★10+ | — |
+| [typesafe-chess](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafe-chess) | `project` | ★10+ | — |
 | [typesafe-playground](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafe-playground) | `project` | ★10+ | — |
 | [typesafe-playground-typesafeai](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafe-playground-typesafeai) | `project` | ★10+ | — |
 | [typesafe-skill-router](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafe-skill-router) | `plugin` | ★10+ | — |
@@ -483,7 +484,6 @@ To take a row off, read the project against [the patterns](patterns.md). Put the
 | [tempo-jev-demo](https://kydlikebtc.github.io/awesome-jev/?lang=en#tempo-jev-demo) | `project` |  | — |
 | [typesafe-ai-playground](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafe-ai-playground) | `project` |  | — |
 | [typesafe-assist](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafe-assist) | `project` |  | — |
-| [typesafe-chess](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafe-chess) | `project` |  | — |
 | [typesafe-comment](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafe-comment) | `project` |  | — |
 | [typesafe-jev-examples](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafe-jev-examples) | `project` |  | — |
 | [typesafe-jev-mcp](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafe-jev-mcp) | `plugin` |  | — |
@@ -535,7 +535,7 @@ To take a row off, read the cited file and write a summary that says what the pr
 | [jev-review](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-review) | `plugin` | ★100+ | A local-first MCP plugin for continuous code-quality review by coding agents. | — | [`src/jev/client.ts`](https://github.com/NiazMorshed2007/jev-review/blob/HEAD/src/jev/client.ts) |
 | [jevmem](https://kydlikebtc.github.io/awesome-jev/?lang=en#jevmem) | `plugin` | ★100+ | Automatic project memory for Claude Code. Also works with Cursor and Codex. | `upstream-description-stale` | [`src/jev.ts`](https://github.com/Avinash-jetwani/jevmem/blob/HEAD/src/jev.ts) |
 | [jevrouter](https://kydlikebtc.github.io/awesome-jev/?lang=en#jevrouter) | `project` | ★100+ | A router for models, tools and subagents. | — | [`functions/api/jev.js`](https://github.com/BillionsBobby/JevRouter/blob/HEAD/functions/api/jev.js) |
-| [kody](https://kydlikebtc.github.io/awesome-jev/?lang=en#kody) | `plugin` | ★100+ | 🐨 Your assistant's home — the memory, keys, code, and automations your AI agent keeps, portable across every MCP host. Built on Cloudflare Workers. | `upstream-description` | [`packages/worker/src/mcp/tools/search-jev-rerank.ts`](https://github.com/kentcdodds/kody/blob/HEAD/packages/worker/src/mcp/tools/search-jev-rerank.ts) |
+| [kody](https://kydlikebtc.github.io/awesome-jev/?lang=en#kody) | `plugin` | ★100+ | 🐨 Your assistant's home — the memory, keys, code, and automations your AI agent keeps, portable across every MCP host. Built on Cloudflare Workers. | `upstream-description-stale` | [`packages/worker/src/mcp/tools/search-jev-rerank.ts`](https://github.com/kentcdodds/kody/blob/HEAD/packages/worker/src/mcp/tools/search-jev-rerank.ts) |
 | [macbrow](https://kydlikebtc.github.io/awesome-jev/?lang=en#macbrow) | `project` | ★100+ | Hands free Mac and Browser control powered by Gradium | `upstream-description` | [`macbrow/generator.py`](https://github.com/timpratim/macbrow/blob/HEAD/macbrow/generator.py) |
 | [omg-dev](https://kydlikebtc.github.io/awesome-jev/?lang=en#omg-dev) | `plugin` | ★100+ | omg.dev — Remote control for claude, codex, cursor, opencode, pi, grok, jcocde with mobile client | `upstream-description` | [`mobile/scripts/jev.ts`](https://github.com/BennyKok/omg.dev/blob/HEAD/mobile/scripts/jev.ts) |
 | [openwhisper](https://kydlikebtc.github.io/awesome-jev/?lang=en#openwhisper) | `project` | ★100+ | Local speech-to-text, dictation, and meetings with Whisper and OpenAI API. Optional Windows x64 engines: Parakeet, Qwen3-ASR, Nemotron Streaming, and Moonshine. | — | [`benchmarks/typesafe_experiments.py`](https://github.com/Knuckles92/OpenWhisper/blob/HEAD/benchmarks/typesafe_experiments.py) |
@@ -577,6 +577,7 @@ To take a row off, read the cited file and write a summary that says what the pr
 | [ruby-llm-typesafe-provider](https://kydlikebtc.github.io/awesome-jev/?lang=en#ruby-llm-typesafe-provider) | `integration` | ★10+ | A structured-output provider for a Ruby LLM library. | — | [`lib/ruby_llm/providers/typesafe.rb`](https://github.com/kieranklaassen/ruby_llm-typesafe/blob/HEAD/lib/ruby_llm/providers/typesafe.rb) |
 | [snifftest](https://kydlikebtc.github.io/awesome-jev/?lang=en#snifftest) | `project` | ★10+ | A prose linter that sniffs out AI writing tells. Zero dependencies, countable rules plus one judgment model. | `upstream-description` | [`src/jev.ts`](https://github.com/DanRWilloughby/snifftest/blob/HEAD/src/jev.ts) |
 | [st-jeved](https://kydlikebtc.github.io/awesome-jev/?lang=en#st-jeved) | `plugin` | ★10+ | SillyTavern extension that measures each reply and instructs the narrator only when a rule matches. | `upstream-description` | [`src/classifier.js`](https://github.com/mossyfield/ST-jeved/blob/HEAD/src/classifier.js) |
+| [taste-lint](https://kydlikebtc.github.io/awesome-jev/?lang=en#taste-lint) | `project` | ★10+ | Catch AI slop before you ship. | `upstream-description` | [`src/map/jev.ts`](https://github.com/mblode/taste-lint/blob/HEAD/src/map/jev.ts) |
 | [tsai-sc](https://kydlikebtc.github.io/awesome-jev/?lang=en#tsai-sc) | `project` | ★10+ | Drives a 1990s real-time strategy game through keyboard and mouse, recording the action probabilities. | — | [`tsai_sc/typesafe.py`](https://github.com/phyous/tsai-sc/blob/HEAD/tsai_sc/typesafe.py) |
 | [typesafe-adblock](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafe-adblock) | `project` | ★10+ | A Chrome extension that asks whether a DOM element is an advert. | — | [`src/typesafe.js`](https://github.com/realZachi/typesafe-adblock/blob/HEAD/src/typesafe.js) |
 | [typesafe-ai-benchmark](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafe-ai-benchmark) | `benchmark` | ★10+ | A gateway that mimics the structured-output shape, used to benchmark against it. | — | [`packages/demos/lib/jev.ts`](https://github.com/iammrduncan/inference-benchmarks/blob/HEAD/packages/demos/lib/jev.ts) |
@@ -604,7 +605,6 @@ To take a row off, read the cited file and write a summary that says what the pr
 | [s1-ruby](https://kydlikebtc.github.io/awesome-jev/?lang=en#s1-ruby) | `sdk` |  | Makes S1-model 'measurement' (and the collapse that follows it) a Ruby primitive. | `upstream-description` | [`lib/s1/providers/typesafe.rb`](https://github.com/innocentdiaz/s1_ruby/blob/HEAD/lib/s1/providers/typesafe.rb) |
 | [secondlayer](https://kydlikebtc.github.io/awesome-jev/?lang=en#secondlayer) | `project` |  | Decoded Stacks data in your own database. Self-hosted. | `upstream-description` | [`scripts/ops/jev-fault-triage.ts`](https://github.com/ryanwaits/secondlayer/blob/HEAD/scripts/ops/jev-fault-triage.ts) |
 | [semantic-assert](https://kydlikebtc.github.io/awesome-jev/?lang=en#semantic-assert) | `sdk` |  | Testing lib for asserting the real requirement. | `upstream-description` | [`packages/semantic-assert-typesafe/src/client.ts`](https://github.com/mondaychen/semantic-assert/blob/HEAD/packages/semantic-assert-typesafe/src/client.ts) |
-| [taste-lint](https://kydlikebtc.github.io/awesome-jev/?lang=en#taste-lint) | `project` |  | Catch AI slop before you ship. | `upstream-description` | [`src/map/jev.ts`](https://github.com/mblode/taste-lint/blob/HEAD/src/map/jev.ts) |
 | [tiab-review-plugin](https://kydlikebtc.github.io/awesome-jev/?lang=en#tiab-review-plugin) | `plugin` |  | A Chrome extension that speeds up title-and-abstract screening for systematic reviews, published on the Chrome Web Store. | — | [`src/lib/providers/typesafe.ts`](https://github.com/youkiti/tiab-review-plugin/blob/HEAD/src/lib/providers/typesafe.ts) |
 | [tripwire](https://kydlikebtc.github.io/awesome-jev/?lang=en#tripwire) | `integration` |  | Judge every LLM response before the user sees it. AI SDK middleware and OpenAI-compatible proxy. | `upstream-description` | [`src/judge/jev.ts`](https://github.com/noelzappy/tripwire/blob/HEAD/src/judge/jev.ts) |
 | [typesafe-sdk-elixir](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafe-sdk-elixir) | `sdk` |  | An Elixir port of the official SDK. | — | [`codegen/typesafe_sdk/codegen/source/openapi.ex`](https://github.com/nshkrdotcom/typesafe_sdk/blob/HEAD/codegen/typesafe_sdk/codegen/source/openapi.ex) |
@@ -649,6 +649,7 @@ To take a row off, read the author's report (the row's link, or `measurement.rep
 | [jev-ood-calibration](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-ood-calibration) |  | `mixed` | [`https://github.com/scienthoon/jev-ood-calibration`](https://github.com/scienthoon/jev-ood-calibration) |
 | [jev-phishing-bench](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-phishing-bench) |  | `mixed` | [`https://github.com/anisselbd/jev-phishing-bench/blob/HEAD/results/report.md`](https://github.com/anisselbd/jev-phishing-bench/blob/HEAD/results/report.md) |
 | [jevbench-human-disagreement](https://kydlikebtc.github.io/awesome-jev/?lang=en#jevbench-human-disagreement) |  | `mixed` | [`https://doi.org/10.5281/zenodo.22971491`](https://doi.org/10.5281/zenodo.22971491) |
+| [decisionmodelhub-support-routing](https://kydlikebtc.github.io/awesome-jev/?lang=en#decisionmodelhub-support-routing) |  | — | [`https://decisionmodelhub.com/benchmarks/support-routing`](https://decisionmodelhub.com/benchmarks/support-routing) |
 
 <a id="wire-unread"></a>
 

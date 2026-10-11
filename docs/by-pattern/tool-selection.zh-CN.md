@@ -72,6 +72,9 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 - **[hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)** — 九个 agent 技能加一个 CLI，覆盖模型路由、记忆过滤、对话轮保留、多选一技能选择和下一步动作决策。
   <sub>`插件` · ★1k+ · `Py` · `choice` · `score` · `noul` · 调用点 [`jevkit/client.py`](https://github.com/kerpopule/hermes-jev-skills/blob/HEAD/jevkit/client.py)，2026-09-22 阅读 · ⚠ `实测后未采用`</sub>
 
+- **[jev-browser-use](https://github.com/wy-coliney/jev-browser-use)** — 把循环拆开：Jev 负责点击，推理模型负责思考与验证。
+  <sub>`开源项目` · ★1k+ · wy-coliney · `JS` · 调用点 [`skills/jev-browser-use/bridge.mjs`](https://github.com/wy-coliney/jev-browser-use/blob/HEAD/skills/jev-browser-use/bridge.mjs)，2026-09-22 阅读</sub>
+
 - **[jev-trader](https://github.com/jarrodwatts/jev-trader)** — 在 Monad 测试网上做高频做市。Jev 根据价差和成交方向判断下一步买还是卖。
   <sub>`开源项目` · ★1k+ · `TS` · `choice` · 调用点 [`src/config.ts`](https://github.com/jarrodwatts/jev-trader/blob/HEAD/src/config.ts)，2026-09-22 阅读 · ⚠ `宣称未核实`</sub>
 
@@ -107,9 +110,6 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 
 - **[jev-browser](https://github.com/Ying-Kai-Liao/jev-browser)** — 浏览器自动化：LLM 负责规划，Jev（TypeSafe System One）负责决策。提供库、CLI 和 MCP 服务器。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ★100+ · ying-kai-liao · `JS` · 调用点 [`src/jev.mjs`](https://github.com/Ying-Kai-Liao/jev-browser/blob/HEAD/src/jev.mjs)，2026-09-24 阅读</sub>
-
-- **[jev-browser-use](https://github.com/wy-coliney/jev-browser-use)** — 把循环拆开：Jev 负责点击，推理模型负责思考与验证。
-  <sub>`开源项目` · ★100+ · wy-coliney · `JS` · 调用点 [`skills/jev-browser-use/bridge.mjs`](https://github.com/wy-coliney/jev-browser-use/blob/HEAD/skills/jev-browser-use/bridge.mjs)，2026-09-22 阅读</sub>
 
 - **[jev-chat: a tool-calling chatbot with no LLM](https://github.com/w3cj/jev-chat)** — 一个完全不含语言模型的 tool calling 聊天机器人：一次请求同时问清请求类型、该调哪个工具、以及每个工具的参数。
   <sub>`开源项目` · ★100+ · `TS` · `choice` · `noul` · 调用点 [`apps/server/src/jev/client.ts`](https://github.com/w3cj/jev-chat/blob/HEAD/apps/server/src/jev/client.ts)，2026-09-22 阅读</sub>
@@ -209,6 +209,9 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 
 - **[dsh-jev](https://github.com/buberlo/dsh-jev)** — 为 DeepSeek Harness 提供的、由 Jev 驱动的决策层。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`插件` · ★10+ · buberlo · `TS` · 调用点 [`packages/dsh-jev/src/config.ts`](https://github.com/buberlo/dsh-jev/blob/HEAD/packages/dsh-jev/src/config.ts)，2026-09-24 阅读 · ⚠ `已归档`</sub>
+
+- **[dsh-jev](https://github.com/zhangxaochen/dsh-jev)** — 面向 DeepSeek Harness（dsh）的 Jev（System One 决策模型）插件套件。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
+  <sub>`插件` · ★10+ · zhangxaochen · `TS` · 调用点 [`lib/typesafe-client.d.ts`](https://github.com/zhangxaochen/dsh-jev/blob/HEAD/lib/typesafe-client.d.ts)，2026-09-24 阅读</sub>
 
 - **[ego-jev](https://github.com/ZephyrDeng/ego-jev)** — 为 ego-browser 提供的 Jev（TypeSafe System One）内循环：每个 DOM 步骤一次约 0.4 秒的类型化决策，而不是一轮 LLM 对话。 <sub>(机翻)</sub>
   <sub>`插件` · ★10+ · zephyrdeng · `JS` · 调用点 [`skills/ego-jev/scripts/jev-loop.mjs`](https://github.com/ZephyrDeng/ego-jev/blob/HEAD/skills/ego-jev/scripts/jev-loop.mjs)，2026-09-24 阅读</sub>
@@ -398,9 +401,6 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 
 - **[deepseek-harness-jev-pre-compaction](https://github.com/wjw66/deepseek-harness-jev-pre-compaction)** — 给 DeepSeek Harness 的压缩前顾问，在标准压缩流程之前运行。 <sub>(机翻)</sub>
   <sub>`开源项目` · wjw66 · `TS` · 调用点 [`src/jev/protocol.ts`](https://github.com/wjw66/deepseek-harness-jev-pre-compaction/blob/HEAD/src/jev/protocol.ts)，2026-09-22 阅读</sub>
-
-- **[dsh-jev](https://github.com/zhangxaochen/dsh-jev)** — 面向 DeepSeek Harness（dsh）的 Jev（System One 决策模型）插件套件。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
-  <sub>`插件` · zhangxaochen · `TS` · 调用点 [`lib/typesafe-client.d.ts`](https://github.com/zhangxaochen/dsh-jev/blob/HEAD/lib/typesafe-client.d.ts)，2026-09-24 阅读</sub>
 
 - **[dsh-jev-prune](https://github.com/yangyu666/dsh-jev-prune)** — 给 DeepSeek Harness 的 Jev 判定式上下文压缩：语义化的工具结果裁剪。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · yangyu666 · `JS` · 调用点 [`jev.js`](https://github.com/yangyu666/dsh-jev-prune/blob/HEAD/jev.js)，2026-09-22 阅读</sub>

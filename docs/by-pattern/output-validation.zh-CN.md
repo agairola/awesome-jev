@@ -182,7 +182,10 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 - **[snifftest](https://github.com/DanRWilloughby/snifftest)** — 识别 AI 写作痕迹的文风 linter：零依赖，可计数规则外加一个判断模型。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ★10+ · danrwilloughby · `TS` · 调用点 [`src/jev.ts`](https://github.com/DanRWilloughby/snifftest/blob/HEAD/src/jev.ts)，2026-09-22 阅读</sub>
 
-- **[typed_evals](https://github.com/TrustifAI/typed_evals)** — 为 LLM 与智能体输出提供快速、带类型、经校准的评估，由 Jev 驱动，附带简单且与框架无关的 Python API。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
+- **[taste-lint](https://github.com/mblode/taste-lint)** — 在发布前拦住 AI 水文。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
+  <sub>`开源项目` · ★10+ · mblode · `TS` · 调用点 [`src/map/jev.ts`](https://github.com/mblode/taste-lint/blob/HEAD/src/map/jev.ts)，2026-09-22 阅读</sub>
+
+- **[typed_evals](https://github.com/TrustifAI/typed_evals)** — 为 LLM 与智能体输出提供快速、带类型、经校准的评估，由 Jev 驱动，附带简单且与框架无关的 Python API。 <sub>(项目旧自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ★10+ · trustifai · `Py` · 调用点 [`typed_evals/backends/jev.py`](https://github.com/TrustifAI/typed_evals/blob/HEAD/typed_evals/backends/jev.py)，2026-09-24 阅读</sub>
 
 - **[vibecheck](https://github.com/RafalWilinski/vibecheck)** — Chrome 扩展：发推之前先用 Jev 给你的帖子做个氛围检查。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
@@ -397,9 +400,6 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 
 - **[system-one-playground](https://github.com/DonaldMurillo/system-one-playground)** — 可读的脚本、语义代码检查、一个 Go System One 客户端与配套 Studio。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · donaldmurillo · `Go` · 调用点 [`typesafe/client.go`](https://github.com/DonaldMurillo/system-one-playground/blob/HEAD/typesafe/client.go)，2026-09-22 阅读</sub>
-
-- **[taste-lint](https://github.com/mblode/taste-lint)** — 在发布前拦住 AI 水文。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
-  <sub>`开源项目` · mblode · `TS` · 调用点 [`src/map/jev.ts`](https://github.com/mblode/taste-lint/blob/HEAD/src/map/jev.ts)，2026-09-22 阅读</sub>
 
 - **[tenbin](https://github.com/simota/tenbin)** — MCP server 兼 agent 技能：把一个判断分解成多个类型化问题。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`插件` · simota · `TS` · 调用点 [`skills/tenbin/scripts/evaluate.py`](https://github.com/simota/tenbin/blob/HEAD/skills/tenbin/scripts/evaluate.py)，2026-09-22 阅读</sub>

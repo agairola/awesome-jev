@@ -56,8 +56,8 @@ _判断哪些工具调用和结果仍然相关，从而丢弃过期上下文。_
 - **[dsh-jev-tools](https://github.com/HorusJiang/dsh-jev-tools)** — 用 Jev 做判断而不是生成：修剪过长的工具输出、筛查抓取页面中注入的指令、为“完成”把关。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`插件` · ★10+ · horusjiang · `TS` · 调用点 [`src/config.ts`](https://github.com/HorusJiang/dsh-jev-tools/blob/HEAD/src/config.ts)，2026-09-24 阅读</sub>
 
-- **[fast-dev-compaction](https://github.com/leonaaardob/fast-dev-compaction)** — Codex 插件：在会话压缩前后，由 Jev 引导逐字恢复上下文。移植自 tamaratran/fast-jev-compaction，适配 Codex 的生命周期钩子。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
-  <sub>`插件` · ★10+ · leonaaardob · `TS` · 调用点 [`src/request.ts`](https://github.com/leonaaardob/fast-dev-compaction/blob/HEAD/src/request.ts)，2026-09-24 阅读</sub>
+- **[jev-compact](https://github.com/fatelei/jev-compact)** — 为 OpenAI Codex CLI 提供由 Jev 打分的上下文压缩——在压缩前为每个工具调用打分，并恢复关键内容。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
+  <sub>`插件` · ★10+ · fatelei · `TS` · 调用点 [`plugins/jev-compact/dist/fast-jev.mjs`](https://github.com/fatelei/jev-compact/blob/HEAD/plugins/jev-compact/dist/fast-jev.mjs)，2026-09-24 阅读</sub>
 
 - **[lcc](https://github.com/lucasmartins-ai/lcc)** — 本地上下文编译器（lcc）：在提示上下文送达模型之前清洗、去重并压缩，并报告每一处改动。 <sub>(项目旧自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ★10+ · lucasmartins-ai · `Py` · 调用点 [`src/lcc/relevance/jev.py`](https://github.com/lucasmartins-ai/lcc/blob/HEAD/src/lcc/relevance/jev.py)，2026-09-24 阅读</sub>
@@ -67,6 +67,9 @@ _判断哪些工具调用和结果仍然相关，从而丢弃过期上下文。_
 
 - **[pi-jev](https://github.com/iefnaf/pi-jev)** — 由 Jev 驱动的 Pi 扩展套件：选择性上下文压缩与模型路由。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`插件` · ★10+ · iefnaf · `TS` · 调用点 [`src/vendor/fast-jev-compaction/request.ts`](https://github.com/iefnaf/pi-jev/blob/HEAD/src/vendor/fast-jev-compaction/request.ts)，2026-09-24 阅读</sub>
+
+- **[pi-jev-context](https://github.com/Nyarlathoteppppp/pi-jev-context)** — 一个 Pi 扩展：感知新鲜度的读取去重、Jev 日志过滤，模型表现优先、省 token 其次。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
+  <sub>`插件` · ★10+ · nyarlathoteppppp · `TS` · 调用点 [`bench/experimental/jev.ts`](https://github.com/Nyarlathoteppppp/pi-jev-context/blob/HEAD/bench/experimental/jev.ts)，2026-09-22 阅读</sub>
 
 - **[save-token-jev-clean](https://github.com/IAmUnbounded/save-token-jev-clean)** — 为编码智能体提供可移植的、由 Jev 引导的上下文压缩：不让另一个 LLM 把旧上下文改写成有损摘要，而是由 Jev 判断哪些工具调用和结果仍然重要，用户与助手的文字保持原样。 <sub>(机翻)</sub>
   <sub>`插件` · ★10+ · iamunbounded · `TS` · 调用点 [`src/cli.ts`](https://github.com/IAmUnbounded/save-token-jev-clean/blob/HEAD/src/cli.ts)，2026-09-24 阅读</sub>
@@ -83,11 +86,11 @@ _判断哪些工具调用和结果仍然相关，从而丢弃过期上下文。_
 - **[fast-compaction-dsh](https://github.com/kolawong/fast-compaction-dsh)** — 给 DeepSeek Harness 的判定式上下文压缩，取代有损的 LLM 摘要。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · kolawong · `TS` · 调用点 [`src/jev.ts`](https://github.com/kolawong/fast-compaction-dsh/blob/HEAD/src/jev.ts)，2026-09-22 阅读</sub>
 
+- **[fast-dev-compaction](https://github.com/leonaaardob/fast-dev-compaction)** — Codex 插件：在会话压缩前后，由 Jev 引导逐字恢复上下文。移植自 tamaratran/fast-jev-compaction，适配 Codex 的生命周期钩子。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
+  <sub>`插件` · leonaaardob · `TS` · 调用点 [`src/request.ts`](https://github.com/leonaaardob/fast-dev-compaction/blob/HEAD/src/request.ts)，2026-09-24 阅读</sub>
+
 - **[Jev by Example](https://github.com/ReallyArtificial/jev-by-example)** — 十个可运行的 JavaScript 智能体决策，一个文件一个：新记忆与旧记忆冲突时该改还是该留、工具返回 200 是否真的完成了任务、写入超时后该重试还是该对账、上下文分块在预算内如何取舍、压缩后的交接是否丢掉了某条禁令。Jev 只回答带类型的问题，阈值和最终提案由普通代码决定。
   <sub>`开源项目` · Really Artificial · `JS` · `choice` · `score` · `noul` · 调用点 [`src/client.mjs`](https://github.com/ReallyArtificial/jev-by-example/blob/HEAD/src/client.mjs)，2026-09-22 阅读 · ⚠ `疑似 AI 生成`</sub>
-
-- **[jev-compact](https://github.com/fatelei/jev-compact)** — 为 OpenAI Codex CLI 提供由 Jev 打分的上下文压缩——在压缩前为每个工具调用打分，并恢复关键内容。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
-  <sub>`插件` · fatelei · `TS` · 调用点 [`plugins/jev-compact/dist/fast-jev.mjs`](https://github.com/fatelei/jev-compact/blob/HEAD/plugins/jev-compact/dist/fast-jev.mjs)，2026-09-24 阅读</sub>
 
 - **[jev-compaction](https://github.com/picaye/jev-compaction)** — 从不做摘要的 Hermes 会话上下文压缩：每次工具调用都被打分。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · picaye · `JS` · 调用点 [`hermes-compact.mjs`](https://github.com/picaye/jev-compaction/blob/HEAD/hermes-compact.mjs)，2026-09-22 阅读</sub>
@@ -118,9 +121,6 @@ _判断哪些工具调用和结果仍然相关，从而丢弃过期上下文。_
 
 - **[pi-jev-compaction](https://github.com/nourhelmi/pi-jev-compaction)** — 为 Pi 自动清理 Jev 上下文：保留对话，修剪过期的工具输出，无需重跑命令即可取回原始内容。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`插件` · nourhelmi · `TS` · 调用点 [`src/pruning.ts`](https://github.com/nourhelmi/pi-jev-compaction/blob/HEAD/src/pruning.ts)，2026-09-24 阅读</sub>
-
-- **[pi-jev-context](https://github.com/Nyarlathoteppppp/pi-jev-context)** — 一个 Pi 扩展：感知新鲜度的读取去重、Jev 日志过滤，模型表现优先、省 token 其次。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
-  <sub>`插件` · nyarlathoteppppp · `TS` · 调用点 [`bench/experimental/jev.ts`](https://github.com/Nyarlathoteppppp/pi-jev-context/blob/HEAD/bench/experimental/jev.ts)，2026-09-22 阅读</sub>
 
 - **[pi-jev-context](https://github.com/kevinpita/pi-jev-context)** — 为 Pi 提供可逆的上下文修剪，由 TypeSafe Jev 驱动：保留有用的上下文，同时不删除会话历史。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`插件` · kevinpita · `TS` · 调用点 [`src/jev.ts`](https://github.com/kevinpita/pi-jev-context/blob/HEAD/src/jev.ts)，2026-09-24 阅读</sub>

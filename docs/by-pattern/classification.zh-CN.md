@@ -127,6 +127,9 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 - **[jev-guard](https://github.com/klauswg/jev-guard)** — 面向交易所充值与提现的实时风险分诊网关——Jev（TypeSafe System One）只负责分诊，裁决另有机制。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ★10+ · klauswg · `Java` · 调用点 [`src/main/java/com/jevguard/eval/EvalRunner.java`](https://github.com/klauswg/jev-guard/blob/HEAD/src/main/java/com/jevguard/eval/EvalRunner.java)，2026-09-24 阅读</sub>
 
+- **[jev-ids](https://github.com/jev-sec/jev-ids)** — 基于 Jev 的高速、省 token 的入侵检测系统。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
+  <sub>`开源项目` · ★10+ · jev-ids · `Py` · 调用点 [`jev_ids/detectors/jev.py`](https://github.com/jev-sec/jev-ids/blob/HEAD/jev_ids/detectors/jev.py)，2026-09-24 阅读</sub>
+
 - **[jev-mail-classifier](https://github.com/parth-kp/jev-mail-classifier)** — 用 Jev 给收件箱分类：打标、移动、标记、通知，全部配置驱动。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ★10+ · parth-kp · `Py` · 调用点 [`jev_mail/providers/typesafe_direct.py`](https://github.com/parth-kp/jev-mail-classifier/blob/HEAD/jev_mail/providers/typesafe_direct.py)，2026-09-22 阅读</sub>
 
@@ -243,9 +246,6 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 
 - **[jev-for-engineers](https://github.com/Foadsf/jev-for-engineers)** — 八个最小可运行示例：把 Jev 用在机械与电气工程场景。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · foadsf · `Py` · 调用点 [`jev.py`](https://github.com/Foadsf/jev-for-engineers/blob/HEAD/jev.py)，2026-09-22 阅读</sub>
-
-- **[jev-ids](https://github.com/jev-sec/jev-ids)** — 基于 Jev 的高速、省 token 的入侵检测系统。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
-  <sub>`开源项目` · jev-ids · `Py` · 调用点 [`jev_ids/detectors/jev.py`](https://github.com/jev-sec/jev-ids/blob/HEAD/jev_ids/detectors/jev.py)，2026-09-24 阅读</sub>
 
 - **[jev-issue-radar](https://github.com/Patrick-SCH03/jev-issue-radar)** — 带并排证据的 GitHub issue 分拣，可免配置试用公开样例。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · patrick-sch03 · `JS` · 调用点 [`lib/jev.mjs`](https://github.com/Patrick-SCH03/jev-issue-radar/blob/HEAD/lib/jev.mjs)，2026-09-22 阅读</sub>

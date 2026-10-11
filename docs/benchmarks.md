@@ -6,7 +6,7 @@
 
 Every `kind: benchmark` row that carries a `measurement`: what its own author measured, indexed field by field from the author's report. This repository measured and re-ran none of it. A **direction** is the author's own conclusion about Jev for that task, author-stated and not reproduced here, and is left blank where the author states none in words. Task, dataset and comparator names are recorded as the author names them.
 
-**71** benchmark rows; **25** carry a measurement; **0** of those have been read against their report by a person (`measurement.read_on`). A script or a model filled in the others, and [the review queue](review-queue.md#measurement-unread) lists them. How the fields were first filled in: [docs/method.md](method.md). Field rules: [CONTRIBUTING](../CONTRIBUTING.md#field-rules).
+**72** benchmark rows; **26** carry a measurement; **0** of those have been read against their report by a person (`measurement.read_on`). A script or a model filled in the others, and [the review queue](review-queue.md#measurement-unread) lists them. How the fields were first filled in: [docs/method.md](method.md). Field rules: [CONTRIBUTING](../CONTRIBUTING.md#field-rules).
 
 ## Direction by decision pattern
 
@@ -25,6 +25,7 @@ Benchmark rows per decision pattern, by the direction their authors state. A row
 | Structured extraction | · | · | · | · | · | 1 |
 | Classification | · | 1 | 1 | · | 2 | 8 |
 | Document triage | · | 1 | · | · | 1 | · |
+| Support triage | · | · | · | · | 1 | · |
 | Content scoring | · | 2 | 1 | · | · | 6 |
 | Overview | · | 3 | · | · | 2 | 18 |
 
@@ -44,10 +45,13 @@ What authors compared Jev with, as each names it, and the rows that did.
 | Claude Fable 5.1 | [jev-code-review-benchmark](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-code-review-benchmark) |
 | Claude Haiku 4.5 | [jev-phishing-bench](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-phishing-bench) |
 | Claude Opus 5 | [windtunnel](https://kydlikebtc.github.io/awesome-jev/?lang=en#windtunnel) |
+| Clef | [Support-routing benchmark: 100 held-out cases](https://kydlikebtc.github.io/awesome-jev/?lang=en#decisionmodelhub-support-routing) |
+| Clef Flash | [Support-routing benchmark: 100 held-out cases](https://kydlikebtc.github.io/awesome-jev/?lang=en#decisionmodelhub-support-routing) |
 | Cohere Rerank 3.5 | [jev-rag-benchmark](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-rag-benchmark) |
 | Cohere Rerank 4 Fast | [jev-rerank-bench](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-rerank-bench) |
 | Cohere Rerank 4 Pro | [jev-rerank-bench](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-rerank-bench) |
 | decider-4b v2 | [jevbench](https://kydlikebtc.github.io/awesome-jev/?lang=en#jevbench) |
+| Decisions API | [Support-routing benchmark: 100 held-out cases](https://kydlikebtc.github.io/awesome-jev/?lang=en#decisionmodelhub-support-routing) |
 | DeepSeek Flash | [jev-arena](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-arena) |
 | DeepSeek V4.1 Flash | [jev-rerank-bench](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-rerank-bench) |
 | DeepSeek V4.1 Flash labeller | [worldmonitor: news threat classification](https://kydlikebtc.github.io/awesome-jev/?lang=en#worldmonitor-shadow-mode) |
@@ -66,6 +70,7 @@ What authors compared Jev with, as each names it, and the rows that did.
 | GPT-5.6 SOL | [windtunnel](https://kydlikebtc.github.io/awesome-jev/?lang=en#windtunnel) |
 | GPT-6 Astra | [windtunnel](https://kydlikebtc.github.io/awesome-jev/?lang=en#windtunnel) |
 | GPT-6 Astra, low reasoning | [jev-robot-control](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-robot-control) |
+| GPT-6 Luna | [Support-routing benchmark: 100 held-out cases](https://kydlikebtc.github.io/awesome-jev/?lang=en#decisionmodelhub-support-routing) |
 | Hermes summary compaction with session_search recovery | [Hermes Agent: Jev compaction evaluation](https://kydlikebtc.github.io/awesome-jev/?lang=en#hermes-agent-jev-evaluation) |
 | Hermes summary compaction, closed-book | [Hermes Agent: Jev compaction evaluation](https://kydlikebtc.github.io/awesome-jev/?lang=en#hermes-agent-jev-evaluation) |
 | hybrid order without a reranker | [jev-rag-benchmark](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-rag-benchmark) |
@@ -117,6 +122,7 @@ Named datasets and benchmark suites the measurements used, as each author names 
 | PAWS-X | [jev-korean-benchmark](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-korean-benchmark) |
 | PhishNChips v5.2 | [jev-phishing-bench](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-phishing-bench) |
 | SciFact | [jev-rerank-bench](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-rerank-bench) |
+| Support routing v1 | [Support-routing benchmark: 100 held-out cases](https://kydlikebtc.github.io/awesome-jev/?lang=en#decisionmodelhub-support-routing) |
 | TREC-COVID | [jev-rerank-bench](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-rerank-bench) |
 | WindTunnel | [windtunnel](https://kydlikebtc.github.io/awesome-jev/?lang=en#windtunnel) |
 | XQuAD-TR | [jev-rag-benchmark](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-rag-benchmark) |
@@ -152,6 +158,7 @@ Rows by star band, then title. **Independent** is yes unless the row is flagged 
 | [jev-phishing-bench](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-phishing-bench) | — | yes | no | — | `no licence` | Decide whether an email agent should click the link in an email · [report](https://github.com/anisselbd/jev-phishing-bench/blob/HEAD/results/report.md) | accuracy, recall, calibration, robustness, latency, cost | 2000 | `jev-1.13.0` | 2026-09-17 | mixed | — |
 | [jevbench](https://kydlikebtc.github.io/awesome-jev/?lang=en#jevbench-human-disagreement) | — | yes | no | yes | `AI-written` `self-submitted` | Whether Jev's stated confidence drops on natural language inference items where human annotators disagree · [report](https://doi.org/10.5281/zenodo.22971491) | calibration, ranking quality | 1500 | `jev-1.13.0` | 2026-09-26 | mixed | — |
 | [Probing Jev's behaviour with repeated API calls](https://kydlikebtc.github.io/awesome-jev/?lang=en#ahastudio-til-jev-probing) | ★100+ | yes | — | — | `no licence` `unverified claims` | Probe how Jev is built from about 10,000 API calls, including reversing the order of options · [report](https://github.com/ahastudio/til/blob/HEAD/jev/architecture-unmasked.md) | robustness, latency, tokens | — | `jev-1.13.0` | 2026-09-17 | — | — |
+| [Support-routing benchmark: 100 held-out cases](https://kydlikebtc.github.io/awesome-jev/?lang=en#decisionmodelhub-support-routing) | — | yes | yes | — | `self-submitted` | Route a support message to one of five team labels: billing, technical, account, sales or needs_clarification | accuracy, F1, calibration, latency, cost | 100 | `jev-1.13.0` | 2026-10-09 | — | — |
 
 ---
 

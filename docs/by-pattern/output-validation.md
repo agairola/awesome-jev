@@ -182,7 +182,10 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 - **[snifftest](https://github.com/DanRWilloughby/snifftest)** — A prose linter that sniffs out AI writing tells. Zero dependencies, countable rules plus one judgment model. <sub>(upstream description)</sub>
   <sub>`Project` · ★10+ · danrwilloughby · `TS` · call site [`src/jev.ts`](https://github.com/DanRWilloughby/snifftest/blob/HEAD/src/jev.ts), read 2026-09-22</sub>
 
-- **[typed_evals](https://github.com/TrustifAI/typed_evals)** — Fast, typed, calibrated evaluations for LLM and agent outputs, powered by Jev — with simple, framework-agnostic Python APIs <sub>(upstream description)</sub>
+- **[taste-lint](https://github.com/mblode/taste-lint)** — Catch AI slop before you ship. <sub>(upstream description)</sub>
+  <sub>`Project` · ★10+ · mblode · `TS` · call site [`src/map/jev.ts`](https://github.com/mblode/taste-lint/blob/HEAD/src/map/jev.ts), read 2026-09-22</sub>
+
+- **[typed_evals](https://github.com/TrustifAI/typed_evals)** — Fast, typed, calibrated evaluations for LLM and agent outputs, powered by Jev — with simple, framework-agnostic Python APIs <sub>(earlier upstream description)</sub>
   <sub>`Project` · ★10+ · trustifai · `Py` · call site [`typed_evals/backends/jev.py`](https://github.com/TrustifAI/typed_evals/blob/HEAD/typed_evals/backends/jev.py), read 2026-09-24</sub>
 
 - **[vibecheck](https://github.com/RafalWilinski/vibecheck)** — Chrome extension: vibe-check your X posts with TypeSafe's Jev before you hit Post <sub>(upstream description)</sub>
@@ -397,9 +400,6 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 
 - **[system-one-playground](https://github.com/DonaldMurillo/system-one-playground)** — Readable scripting, semantic code checks, a Go System One client, and Studio. <sub>(upstream description)</sub>
   <sub>`Project` · donaldmurillo · `Go` · call site [`typesafe/client.go`](https://github.com/DonaldMurillo/system-one-playground/blob/HEAD/typesafe/client.go), read 2026-09-22</sub>
-
-- **[taste-lint](https://github.com/mblode/taste-lint)** — Catch AI slop before you ship. <sub>(upstream description)</sub>
-  <sub>`Project` · mblode · `TS` · call site [`src/map/jev.ts`](https://github.com/mblode/taste-lint/blob/HEAD/src/map/jev.ts), read 2026-09-22</sub>
 
 - **[tenbin](https://github.com/simota/tenbin)** — MCP server and agent skill for the TypeSafe AI System One API (Jev): decompose a judgment into Choice / Score / Noul questions, lint them, measure on labelled data, and put calibrated thresholds in code <sub>(upstream description)</sub>
   <sub>`Plugin` · simota · `TS` · call site [`skills/tenbin/scripts/evaluate.py`](https://github.com/simota/tenbin/blob/HEAD/skills/tenbin/scripts/evaluate.py), read 2026-09-22</sub>

@@ -66,7 +66,7 @@
 **何时不该用：** 意图之间重叠得太厉害，连人工标注者都无法与自己保持一致时。先修好分类体系。
 
 <!-- catalogued-intent-routing:start -->
-目录中的**意图路由**：共 36 条，[逐条列出并附警示](by-pattern/intent-routing.zh-CN.md) · [站点筛选](https://kydlikebtc.github.io/awesome-jev/?p=intent-routing&lang=zh)。
+目录中的**意图路由**：共 37 条，[逐条列出并附警示](by-pattern/intent-routing.zh-CN.md) · [站点筛选](https://kydlikebtc.github.io/awesome-jev/?p=intent-routing&lang=zh)。
 <!-- catalogued-intent-routing:end -->
 
 ---
@@ -158,7 +158,7 @@
 **何时不该用：** 当你的几个模型区别在于能力而不是成本时。在搭路由器之前，先确认便宜的那条路对简单的请求确实够用。
 
 <!-- catalogued-model-routing:start -->
-目录中的**模型路由**：共 44 条，[逐条列出并附警示](by-pattern/model-routing.zh-CN.md) · [站点筛选](https://kydlikebtc.github.io/awesome-jev/?p=model-routing&lang=zh)。
+目录中的**模型路由**：共 45 条，[逐条列出并附警示](by-pattern/model-routing.zh-CN.md) · [站点筛选](https://kydlikebtc.github.io/awesome-jev/?p=model-routing&lang=zh)。
 <!-- catalogued-model-routing:end -->
 
 ---
@@ -266,7 +266,7 @@
 **注：** 厂商自己的 quickstart 用的就是这个例子，所以它是文档最齐全的起点。
 
 <!-- catalogued-support-triage:start -->
-目录中的**工单分拣**：共 8 条，[逐条列出并附警示](by-pattern/support-triage.zh-CN.md) · [站点筛选](https://kydlikebtc.github.io/awesome-jev/?p=support-triage&lang=zh)。
+目录中的**工单分拣**：共 9 条，[逐条列出并附警示](by-pattern/support-triage.zh-CN.md) · [站点筛选](https://kydlikebtc.github.io/awesome-jev/?p=support-triage&lang=zh)。
 <!-- catalogued-support-triage:end -->
 
 ---

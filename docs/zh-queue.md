@@ -4,22 +4,22 @@
 
 <sub>The Chinese on this page is model-written and has not been reviewed by a person. · 本页中文由模型撰写（机翻），未经人工审校。</sub>
 
-Chinese summaries a model translated (`zh_machine: true`), for a person to replace with a translation of their own. 1019 of the catalogue's 1214 rows have one; 195 have a Chinese summary a person wrote. Rows more readers see come first: every machine translation on a row at ★100+, then the others at least one signal flags, most-starred band first. A signal is a text comparison a script makes between a translation and its English, not a verdict on the translation: the table below counts how often each also fires on a summary a person wrote, and a translation none of them flags can still be wrong. No README row, pattern page or site card shows the signals; they show only the `(机翻)` mark. To take some rows, see [Claim a translation](../CONTRIBUTING.md#claim-a-translation). A row leaves this page when a translation a person wrote replaces its Chinese and `zh_machine` comes off.
+Chinese summaries a model translated (`zh_machine: true`), for a person to replace with a translation of their own. 1021 of the catalogue's 1216 rows have one; 195 have a Chinese summary a person wrote. Rows more readers see come first: every machine translation on a row at ★100+, then the others at least one signal flags, most-starred band first. A signal is a text comparison a script makes between a translation and its English, not a verdict on the translation: the table below counts how often each also fires on a summary a person wrote, and a translation none of them flags can still be wrong. No README row, pattern page or site card shows the signals; they show only the `(机翻)` mark. To take some rows, see [Claim a translation](../CONTRIBUTING.md#claim-a-translation). A row leaves this page when a translation a person wrote replaces its Chinese and `zh_machine` comes off.
 
-由模型翻译的中文摘要（`zh_machine: true`），等待有人换成自己的译文。目录 1214 行中有 1019 行是机翻，195 行的中文摘要由人撰写。看到的读者越多越靠前：先列出 ★100+ 各行的全部机翻，再按星标区间从高到低列出至少被一项信号标出的其他机翻。信号是脚本把译文与英文对照得出的文本比较，不是对译文的结论：下表列出每项信号在人写摘要上同样触发的次数，而没有被任何信号标出的译文也可能有错。README 各行、模式页面和站点卡片都不显示这些信号，只显示 `(机翻)` 标记。认领方法见[认领翻译](../CONTRIBUTING.md#claim-a-translation)。当一行的中文换成人写的译文、并去掉 `zh_machine` 后，它就会离开本页。
+由模型翻译的中文摘要（`zh_machine: true`），等待有人换成自己的译文。目录 1216 行中有 1021 行是机翻，195 行的中文摘要由人撰写。看到的读者越多越靠前：先列出 ★100+ 各行的全部机翻，再按星标区间从高到低列出至少被一项信号标出的其他机翻。信号是脚本把译文与英文对照得出的文本比较，不是对译文的结论：下表列出每项信号在人写摘要上同样触发的次数，而没有被任何信号标出的译文也可能有错。README 各行、模式页面和站点卡片都不显示这些信号，只显示 `(机翻)` 标记。认领方法见[认领翻译](../CONTRIBUTING.md#claim-a-translation)。当一行的中文换成人写的译文、并去掉 `zh_machine` 后，它就会离开本页。
 
 | Signal · 信号 | Rule · 规则 | Machine translations · 机翻 | Written by a person · 人写 |
 | --- | --- | --- | --- |
-| `short` | The Chinese has fewer than 30% as many characters as the English. · 中文的字符数不到英文的 30%。 | 284 of 1019 | 14 of 195 |
-| `numbers` | A number the English gives does not appear in the Chinese. Digit groups are joined first, so 2 000, 2,000 and 2000 are one number; a number written out in words is not read. · 英文给出的某个数字在中文里找不到。比较前先合并数字分组，所以 2 000、2,000 与 2000 算同一个数；用文字写出的数不计。 | 91 of 1019 | 1 of 195 |
-| `ascii` | More than 60% of the Chinese is ASCII (Latin letters, digits, spaces and ASCII punctuation): mostly left untranslated. · 中文摘要里超过 60% 的字符是 ASCII（拉丁字母、数字、空格与 ASCII 标点），大部分没有翻译。 | 152 of 1019 | 16 of 195 |
-| any · 任一 | At least one of the three. · 三项中至少一项。 | 457 of 1019 | 31 of 195 |
+| `short` | The Chinese has fewer than 30% as many characters as the English. · 中文的字符数不到英文的 30%。 | 284 of 1021 | 14 of 195 |
+| `numbers` | A number the English gives does not appear in the Chinese. Digit groups are joined first, so 2 000, 2,000 and 2000 are one number; a number written out in words is not read. · 英文给出的某个数字在中文里找不到。比较前先合并数字分组，所以 2 000、2,000 与 2000 算同一个数；用文字写出的数不计。 | 91 of 1021 | 1 of 195 |
+| `ascii` | More than 60% of the Chinese is ASCII (Latin letters, digits, spaces and ASCII punctuation): mostly left untranslated. · 中文摘要里超过 60% 的字符是 ASCII（拉丁字母、数字、空格与 ASCII 标点），大部分没有翻译。 | 152 of 1021 | 16 of 195 |
+| any · 任一 | At least one of the three. · 三项中至少一项。 | 457 of 1021 | 31 of 195 |
 
 <a id="most-starred"></a>
 
 ## Every machine translation at ★100+ · ★100+ 的全部机翻
 
-107 rows, most-starred band first, then the rows more signals flag. A dash means no signal fires, not that the translation is right. · 共 107 行，按星标区间从高到低，再按命中信号的多少排列。破折号表示没有信号触发，不代表译文无误。
+108 rows, most-starred band first, then the rows more signals flag. A dash means no signal fires, not that the translation is right. · 共 108 行，按星标区间从高到低，再按命中信号的多少排列。破折号表示没有信号触发，不代表译文无误。
 
 | Row · 行 | Stars · 星标 | Signals · 信号 |
 | --- | --- | --- |
@@ -88,6 +88,7 @@ Chinese summaries a model translated (`zh_machine: true`), for a person to repla
 | [compact-adviser](https://kydlikebtc.github.io/awesome-jev/?lang=en#compact-adviser) | ★100+ | — |
 | [crush-monitor](https://kydlikebtc.github.io/awesome-jev/?lang=en#crush-monitor) | ★100+ | — |
 | [distill](https://kydlikebtc.github.io/awesome-jev/?lang=en#distill) | ★100+ | — |
+| [grok-bot-jev](https://kydlikebtc.github.io/awesome-jev/?lang=en#grok-bot-jev) | ★100+ | — |
 | [jeff](https://kydlikebtc.github.io/awesome-jev/?lang=en#jeff) | ★100+ | — |
 | [jev-as-a-judge](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-as-a-judge) | ★100+ | — |
 | [jev-browser-openqa-cn](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-browser-openqa-cn) | ★100+ | — |
@@ -164,8 +165,10 @@ Chinese summaries a model translated (`zh_machine: true`), for a person to repla
 | [clash-jev](https://kydlikebtc.github.io/awesome-jev/?lang=en#clash-jev) | ★10+ | `short` 0.27 |
 | [cultivar](https://kydlikebtc.github.io/awesome-jev/?lang=en#cultivar) | ★10+ | `short` 0.22 |
 | [dejevu](https://kydlikebtc.github.io/awesome-jev/?lang=en#dejevu) | ★10+ | `short` 0.27 |
+| [diffusion-jev-sglang](https://kydlikebtc.github.io/awesome-jev/?lang=en#diffusion-jev-sglang) | ★10+ | `ascii` 0.63 |
 | [discern](https://kydlikebtc.github.io/awesome-jev/?lang=en#discern) | ★10+ | `short` 0.17 |
 | [dsh-jev-buberlo](https://kydlikebtc.github.io/awesome-jev/?lang=en#dsh-jev-buberlo) | ★10+ | `ascii` 0.64 |
+| [dsh-jev-zhangxaochen](https://kydlikebtc.github.io/awesome-jev/?lang=en#dsh-jev-zhangxaochen) | ★10+ | `ascii` 0.69 |
 | [ego-jev-zephyrdeng](https://kydlikebtc.github.io/awesome-jev/?lang=en#ego-jev-zephyrdeng) | ★10+ | `ascii` 0.61 |
 | [eutrya](https://kydlikebtc.github.io/awesome-jev/?lang=en#eutrya) | ★10+ | `short` 0.25 |
 | [evoke](https://kydlikebtc.github.io/awesome-jev/?lang=en#evoke) | ★10+ | `short` 0.10 |
@@ -221,6 +224,7 @@ Chinese summaries a model translated (`zh_machine: true`), for a person to repla
 | [pg-typesafe](https://kydlikebtc.github.io/awesome-jev/?lang=en#pg-typesafe) | ★10+ | `ascii` 0.64 |
 | [pi-heed](https://kydlikebtc.github.io/awesome-jev/?lang=en#pi-heed) | ★10+ | `short` 0.29 |
 | [pi-jev-auto-mode](https://kydlikebtc.github.io/awesome-jev/?lang=en#pi-jev-auto-mode) | ★10+ | `short` 0.24 |
+| [pi-jev-context](https://kydlikebtc.github.io/awesome-jev/?lang=en#pi-jev-context) | ★10+ | `short` 0.25 |
 | [pi-jev-router](https://kydlikebtc.github.io/awesome-jev/?lang=en#pi-jev-router) | ★10+ | `ascii` 0.68 |
 | [public-browser](https://kydlikebtc.github.io/awesome-jev/?lang=en#public-browser) | ★10+ | `numbers` `30` `25` `41` `34` `40` `11` |
 | [robojev](https://kydlikebtc.github.io/awesome-jev/?lang=en#robojev) | ★10+ | `ascii` 0.73 |
@@ -233,6 +237,7 @@ Chinese summaries a model translated (`zh_machine: true`), for a person to repla
 | [toolgate](https://kydlikebtc.github.io/awesome-jev/?lang=en#toolgate) | ★10+ | `short` 0.26 |
 | [trade-jev](https://kydlikebtc.github.io/awesome-jev/?lang=en#trade-jev) | ★10+ | `numbers` `10` |
 | [typed-decision-bert](https://kydlikebtc.github.io/awesome-jev/?lang=en#typed-decision-bert) | ★10+ | `short` 0.20 |
+| [typed-decisions](https://kydlikebtc.github.io/awesome-jev/?lang=en#typed-decisions) | ★10+ | `short` 0.13 |
 | [typesafe](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafe) | ★10+ | `ascii` 0.91 |
 | [typesafe-playground](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafe-playground) | ★10+ | `short` 0.28 |
 | [typesafeai-dotnet-sdk](https://kydlikebtc.github.io/awesome-jev/?lang=en#typesafeai-dotnet-sdk) | ★10+ | `short` 0.25 |
@@ -310,11 +315,9 @@ Chinese summaries a model translated (`zh_machine: true`), for a person to repla
 | [decision-first](https://kydlikebtc.github.io/awesome-jev/?lang=en#decision-first) |  | `short` 0.29 |
 | [deepseek-harness-jev-pre-compaction](https://kydlikebtc.github.io/awesome-jev/?lang=en#deepseek-harness-jev-pre-compaction) |  | `short` 0.12 |
 | [diffjury](https://kydlikebtc.github.io/awesome-jev/?lang=en#diffjury) |  | `short` 0.27 |
-| [diffusion-jev-sglang](https://kydlikebtc.github.io/awesome-jev/?lang=en#diffusion-jev-sglang) |  | `ascii` 0.63 |
 | [discoprint](https://kydlikebtc.github.io/awesome-jev/?lang=en#discoprint) |  | `short` 0.27 |
 | [draftpulse](https://kydlikebtc.github.io/awesome-jev/?lang=en#draftpulse) |  | `short` 0.26 |
 | [dsh-jev](https://kydlikebtc.github.io/awesome-jev/?lang=en#dsh-jev) |  | `ascii` 0.69 |
-| [dsh-jev-zhangxaochen](https://kydlikebtc.github.io/awesome-jev/?lang=en#dsh-jev-zhangxaochen) |  | `ascii` 0.69 |
 | [dsh-jev-decide](https://kydlikebtc.github.io/awesome-jev/?lang=en#dsh-jev-decide) |  | `short` 0.10 |
 | [duckdb-jev](https://kydlikebtc.github.io/awesome-jev/?lang=en#duckdb-jev) |  | `short` 0.23 |
 | [ego-jev-ultrafast](https://kydlikebtc.github.io/awesome-jev/?lang=en#ego-jev-ultrafast) |  | `short` 0.17 |
@@ -337,7 +340,5 @@ Chinese summaries a model translated (`zh_machine: true`), for a person to repla
 | [jev-agent-skill](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-agent-skill) |  | `short` 0.22 |
 | [jev-android](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-android) |  | `ascii` 0.64 |
 | [jev-arena-nanojev](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-arena-nanojev) |  | `numbers` `1660` |
-| [jev-asks-until-sure](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-asks-until-sure) |  | `short` 0.25 |
-| [jev-assist](https://kydlikebtc.github.io/awesome-jev/?lang=en#jev-assist) |  | `short` 0.23 |
 
 …and 206 more, in the same order; `python3 scripts/zh_audit.py --json` lists every machine translation. · 另有 206 行未列出，顺序相同；`python3 scripts/zh_audit.py --json` 会列出全部机翻。

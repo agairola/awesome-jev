@@ -8,7 +8,7 @@
 
 所有带 `measurement` 的 `kind: benchmark` 行：作者本人测了什么，按作者的报告逐项索引。这些测量本仓库一项都没有做过或重跑过。**结论方向**是作者本人对 Jev 在该任务上的结论，属作者自述、未经本仓库复现；作者没有用文字说明结论的，这一栏留空。
 
-共 **71** 条基准测试行；其中 **25** 条带测量字段；其中 **0** 条已由人对照报告核读（`measurement.read_on`）。其余由脚本或模型填写，[复核队列](review-queue.md#measurement-unread)列出了它们。这些字段最初如何填写：[docs/method.md](method.md)。字段规则：[CONTRIBUTING](../CONTRIBUTING.md#field-rules)。
+共 **72** 条基准测试行；其中 **26** 条带测量字段；其中 **0** 条已由人对照报告核读（`measurement.read_on`）。其余由脚本或模型填写，[复核队列](review-queue.md#measurement-unread)列出了它们。这些字段最初如何填写：[docs/method.md](method.md)。字段规则：[CONTRIBUTING](../CONTRIBUTING.md#field-rules)。
 
 ## 按决策模式看结论方向
 
@@ -27,6 +27,7 @@
 | 结构化抽取 | · | · | · | · | · | 1 |
 | 分类 | · | 1 | 1 | · | 2 | 8 |
 | 文档分拣 | · | 1 | · | · | 1 | · |
+| 工单分拣 | · | · | · | · | 1 | · |
 | 内容评分 | · | 2 | 1 | · | · | 6 |
 | 总览 | · | 3 | · | · | 2 | 18 |
 
@@ -46,10 +47,13 @@
 | Claude Fable 5.1 | [jev-code-review-benchmark](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jev-code-review-benchmark) |
 | Claude Haiku 4.5 | [jev-phishing-bench](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jev-phishing-bench) |
 | Claude Opus 5 | [windtunnel](https://kydlikebtc.github.io/awesome-jev/?lang=zh#windtunnel) |
+| Clef | [Support-routing benchmark: 100 held-out cases](https://kydlikebtc.github.io/awesome-jev/?lang=zh#decisionmodelhub-support-routing) |
+| Clef Flash | [Support-routing benchmark: 100 held-out cases](https://kydlikebtc.github.io/awesome-jev/?lang=zh#decisionmodelhub-support-routing) |
 | Cohere Rerank 3.5 | [jev-rag-benchmark](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jev-rag-benchmark) |
 | Cohere Rerank 4 Fast | [jev-rerank-bench](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jev-rerank-bench) |
 | Cohere Rerank 4 Pro | [jev-rerank-bench](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jev-rerank-bench) |
 | decider-4b v2 | [jevbench](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jevbench) |
+| Decisions API | [Support-routing benchmark: 100 held-out cases](https://kydlikebtc.github.io/awesome-jev/?lang=zh#decisionmodelhub-support-routing) |
 | DeepSeek Flash | [jev-arena](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jev-arena) |
 | DeepSeek V4.1 Flash | [jev-rerank-bench](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jev-rerank-bench) |
 | DeepSeek V4.1 Flash labeller | [worldmonitor: news threat classification](https://kydlikebtc.github.io/awesome-jev/?lang=zh#worldmonitor-shadow-mode) |
@@ -68,6 +72,7 @@
 | GPT-5.6 SOL | [windtunnel](https://kydlikebtc.github.io/awesome-jev/?lang=zh#windtunnel) |
 | GPT-6 Astra | [windtunnel](https://kydlikebtc.github.io/awesome-jev/?lang=zh#windtunnel) |
 | GPT-6 Astra, low reasoning | [jev-robot-control](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jev-robot-control) |
+| GPT-6 Luna | [Support-routing benchmark: 100 held-out cases](https://kydlikebtc.github.io/awesome-jev/?lang=zh#decisionmodelhub-support-routing) |
 | Hermes summary compaction with session_search recovery | [Hermes Agent: Jev compaction evaluation](https://kydlikebtc.github.io/awesome-jev/?lang=zh#hermes-agent-jev-evaluation) |
 | Hermes summary compaction, closed-book | [Hermes Agent: Jev compaction evaluation](https://kydlikebtc.github.io/awesome-jev/?lang=zh#hermes-agent-jev-evaluation) |
 | hybrid order without a reranker | [jev-rag-benchmark](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jev-rag-benchmark) |
@@ -119,6 +124,7 @@
 | PAWS-X | [jev-korean-benchmark](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jev-korean-benchmark) |
 | PhishNChips v5.2 | [jev-phishing-bench](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jev-phishing-bench) |
 | SciFact | [jev-rerank-bench](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jev-rerank-bench) |
+| Support routing v1 | [Support-routing benchmark: 100 held-out cases](https://kydlikebtc.github.io/awesome-jev/?lang=zh#decisionmodelhub-support-routing) |
 | TREC-COVID | [jev-rerank-bench](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jev-rerank-bench) |
 | WindTunnel | [windtunnel](https://kydlikebtc.github.io/awesome-jev/?lang=zh#windtunnel) |
 | XQuAD-TR | [jev-rag-benchmark](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jev-rag-benchmark) |
@@ -154,6 +160,7 @@
 | [jev-phishing-bench](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jev-phishing-bench) | — | 是 | 否 | — | `无许可证` | Decide whether an email agent should click the link in an email · [报告](https://github.com/anisselbd/jev-phishing-bench/blob/HEAD/results/report.md) | 准确率, 召回率, 校准, 稳健性, 延迟, 成本 | 2000 | `jev-1.13.0` | 2026-09-17 | 好坏参半 | — |
 | [jevbench](https://kydlikebtc.github.io/awesome-jev/?lang=zh#jevbench-human-disagreement) | — | 是 | 否 | 是 | `疑似 AI 生成` `作者自荐` | Whether Jev's stated confidence drops on natural language inference items where human annotators disagree · [报告](https://doi.org/10.5281/zenodo.22971491) | 校准, 排序质量 | 1500 | `jev-1.13.0` | 2026-09-26 | 好坏参半 | — |
 | [Probing Jev's behaviour with repeated API calls](https://kydlikebtc.github.io/awesome-jev/?lang=zh#ahastudio-til-jev-probing) | ★100+ | 是 | — | — | `无许可证` `宣称未核实` | Probe how Jev is built from about 10,000 API calls, including reversing the order of options · [报告](https://github.com/ahastudio/til/blob/HEAD/jev/architecture-unmasked.md) | 稳健性, 延迟, token 用量 | — | `jev-1.13.0` | 2026-09-17 | — | — |
+| [Support-routing benchmark: 100 held-out cases](https://kydlikebtc.github.io/awesome-jev/?lang=zh#decisionmodelhub-support-routing) | — | 是 | 是 | — | `作者自荐` | Route a support message to one of five team labels: billing, technical, account, sales or needs_clarification | 准确率, F1, 校准, 延迟, 成本 | 100 | `jev-1.13.0` | 2026-10-09 | — | — |
 
 ---
 

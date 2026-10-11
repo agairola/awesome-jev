@@ -72,6 +72,9 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 - **[hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills)** — Nine agent skills plus a CLI covering model routing, memory filtering, turn retention, one-of-many skill selection and next-action choice.
   <sub>`Plugin` · ★1k+ · `Py` · `choice` · `score` · `noul` · call site [`jevkit/client.py`](https://github.com/kerpopule/hermes-jev-skills/blob/HEAD/jevkit/client.py), read 2026-09-22 · ⚠ `measured, not adopted`</sub>
 
+- **[jev-browser-use](https://github.com/wy-coliney/jev-browser-use)** — Splits the loop: Jev clicks, a reasoning model thinks and verifies.
+  <sub>`Project` · ★1k+ · wy-coliney · `JS` · call site [`skills/jev-browser-use/bridge.mjs`](https://github.com/wy-coliney/jev-browser-use/blob/HEAD/skills/jev-browser-use/bridge.mjs), read 2026-09-22</sub>
+
 - **[jev-trader](https://github.com/jarrodwatts/jev-trader)** — High-frequency market making on a test network, deciding buy or sell from spread and trade direction.
   <sub>`Project` · ★1k+ · `TS` · `choice` · call site [`src/config.ts`](https://github.com/jarrodwatts/jev-trader/blob/HEAD/src/config.ts), read 2026-09-22 · ⚠ `unverified claims`</sub>
 
@@ -107,9 +110,6 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 
 - **[jev-browser](https://github.com/Ying-Kai-Liao/jev-browser)** — Browser automation where an LLM plans and Jev (Typesafe System One) decides. Library, CLI and MCP server. <sub>(upstream description)</sub>
   <sub>`Project` · ★100+ · ying-kai-liao · `JS` · call site [`src/jev.mjs`](https://github.com/Ying-Kai-Liao/jev-browser/blob/HEAD/src/jev.mjs), read 2026-09-24</sub>
-
-- **[jev-browser-use](https://github.com/wy-coliney/jev-browser-use)** — Splits the loop: Jev clicks, a reasoning model thinks and verifies.
-  <sub>`Project` · ★100+ · wy-coliney · `JS` · call site [`skills/jev-browser-use/bridge.mjs`](https://github.com/wy-coliney/jev-browser-use/blob/HEAD/skills/jev-browser-use/bridge.mjs), read 2026-09-22</sub>
 
 - **[jev-chat: a tool-calling chatbot with no LLM](https://github.com/w3cj/jev-chat)** — A chat bot that does tool calling with no language model anywhere: one request asks the request kind, the tool, and every tool's arguments at once.
   <sub>`Project` · ★100+ · `TS` · `choice` · `noul` · call site [`apps/server/src/jev/client.ts`](https://github.com/w3cj/jev-chat/blob/HEAD/apps/server/src/jev/client.ts), read 2026-09-22</sub>
@@ -209,6 +209,9 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 
 - **[dsh-jev](https://github.com/buberlo/dsh-jev)** — Jev-powered decision layer for DeepSeek Harness <sub>(upstream description)</sub>
   <sub>`Plugin` · ★10+ · buberlo · `TS` · call site [`packages/dsh-jev/src/config.ts`](https://github.com/buberlo/dsh-jev/blob/HEAD/packages/dsh-jev/src/config.ts), read 2026-09-24 · ⚠ `archived`</sub>
+
+- **[dsh-jev](https://github.com/zhangxaochen/dsh-jev)** — Jev (System One decision model) plugin suite for DeepSeek Harness (dsh) <sub>(upstream description)</sub>
+  <sub>`Plugin` · ★10+ · zhangxaochen · `TS` · call site [`lib/typesafe-client.d.ts`](https://github.com/zhangxaochen/dsh-jev/blob/HEAD/lib/typesafe-client.d.ts), read 2026-09-24</sub>
 
 - **[ego-jev](https://github.com/ZephyrDeng/ego-jev)** — Jev (TypeSafe System One) inner loop for ego-browser — one ~0.4s typed decision per DOM step instead of an LLM turn. Agent skill for ego lite.
   <sub>`Plugin` · ★10+ · zephyrdeng · `JS` · call site [`skills/ego-jev/scripts/jev-loop.mjs`](https://github.com/ZephyrDeng/ego-jev/blob/HEAD/skills/ego-jev/scripts/jev-loop.mjs), read 2026-09-24</sub>
@@ -398,9 +401,6 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 
 - **[deepseek-harness-jev-pre-compaction](https://github.com/wjw66/deepseek-harness-jev-pre-compaction)** — A pre-compaction advisor for DeepSeek Harness. Runs before the standard `compaction-basic` backend, using TypeSafe JEV to safely prune low-value tool results from model context. Original session events stay in the append-only log; only the model-visible view is replaced with compact markers or
   <sub>`Project` · wjw66 · `TS` · call site [`src/jev/protocol.ts`](https://github.com/wjw66/deepseek-harness-jev-pre-compaction/blob/HEAD/src/jev/protocol.ts), read 2026-09-22</sub>
-
-- **[dsh-jev](https://github.com/zhangxaochen/dsh-jev)** — Jev (System One decision model) plugin suite for DeepSeek Harness (dsh) <sub>(upstream description)</sub>
-  <sub>`Plugin` · zhangxaochen · `TS` · call site [`lib/typesafe-client.d.ts`](https://github.com/zhangxaochen/dsh-jev/blob/HEAD/lib/typesafe-client.d.ts), read 2026-09-24</sub>
 
 - **[dsh-jev-prune](https://github.com/yangyu666/dsh-jev-prune)** — Jev-judged context compaction for DeepSeek Harness: semantic tool-result pruning + deterministic receipt compaction <sub>(upstream description)</sub>
   <sub>`Project` · yangyu666 · `JS` · call site [`jev.js`](https://github.com/yangyu666/dsh-jev-prune/blob/HEAD/jev.js), read 2026-09-22</sub>

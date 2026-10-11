@@ -4,11 +4,11 @@
 
 _Route support tickets and conversations by intent and urgency._
 
-Every catalogued example of this decision — 8 of them. The same rows, with caveats, are in [the index](../../README.md#support-triage); [the site](https://kydlikebtc.github.io/awesome-jev/?p=support-triage&lang=en) can filter them further by language, primitive and kind.
+Every catalogued example of this decision — 9 of them. The same rows, with caveats, are in [the index](../../README.md#support-triage); [the site](https://kydlikebtc.github.io/awesome-jev/?p=support-triage&lang=en) can filter them further by language, primitive and kind.
 
 Design notes for this decision are in [docs/patterns.md](../patterns.md#support-triage): what it decides and which primitive shapes it, and, where one is written, when not to use a decision model for it.
 
-Evidence recorded for this pattern's rows (reports counted, not a verdict; a row may count more than once): official documentation 1 · call site 4 · wire shape 0 · example only 0 · independent reports 0 · negative results 0 · no file cited 4. “Independent” = a benchmark not flagged vendor-reported, not reproduced by this repository. [Every pattern side by side](../shape.md#evidence-by-decision-pattern).
+Evidence recorded for this pattern's rows (reports counted, not a verdict; a row may count more than once): official documentation 1 · call site 4 · wire shape 0 · example only 0 · independent reports 1 · negative results 0 · no file cited 5. “Independent” = a benchmark not flagged vendor-reported, not reproduced by this repository. [Every pattern side by side](../shape.md#evidence-by-decision-pattern).
 
 ## Official material
 
@@ -51,6 +51,9 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 
 - **[jev-triage](https://github.com/boldbug1/jev-triage)** — Message triage CLI in Go, built on the Jev decision model from TypeSafe AI. Categorizes messages, scores urgency, and flags low-confidence ones for human review. <sub>(upstream description)</sub>
   <sub>`Project` · boldbug1 · `Go` · call site [`main.go`](https://github.com/boldbug1/jev-triage/blob/HEAD/main.go), read 2026-09-24</sub>
+
+- **[Support-routing benchmark: 100 held-out cases](https://decisionmodelhub.com/benchmarks/support-routing)** — Compares Jev with Clef, Clef Flash, OpenAI's Decisions API and a GPT-6 Luna structured-output baseline on 100 held-out fictional support messages, each routed to one of five team labels; every case and recorded answer can be downloaded.
+  <sub>`Benchmark` · DecisionModelHub · ⚠ `self-submitted`</sub>
 
 ---
 
