@@ -180,12 +180,14 @@ class RuleTest(unittest.TestCase):
 
 class RealCatalogueTest(unittest.TestCase):
     def test_every_measurement_is_on_a_benchmark_and_follows_the_rules(self):
+        # The live catalogue can contain measurements newer than the fixtures.
+        today = dt.date.today()
         measured = measurements.measured(CATALOG)
         self.assertGreaterEqual(len(measured), 20)
         for entry in measured:
             with self.subTest(slug=entry["slug"]):
                 self.assertEqual(entry["kind"], "benchmark")
-                self.assertEqual(problems(entry), [])
+                self.assertEqual(measurements.row_problems(entry, today), [])
         self.assertEqual(measurements.model_problems(CATALOG, [], COMPAT), [])
 
     def test_the_model_read_backfill_claims_no_reading(self):
