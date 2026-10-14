@@ -98,6 +98,9 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 - **[hermes-jev](https://github.com/keeltrace/hermes-nerve)** — Typed System One decisions, ranking, verification, and an opt-in Hermes tool gate using TypeSafe Jev.
   <sub>`Project` · ★10+ · keeltrace · `Py` · call site [`hermes_nerve/client.py`](https://github.com/keeltrace/hermes-nerve/blob/HEAD/hermes_nerve/client.py), read 2026-09-22</sub>
 
+- **[hermes-jev-plugin](https://github.com/ajensenwaud/hermes-jev-plugin)** — TypeSafe Jev (System One) decision tools for Hermes Agent: jev_check / jev_route / jev_score / jev_evaluate <sub>(upstream description)</sub>
+  <sub>`Plugin` · ★10+ · ajensenwaud · `Py` · call site [`client.py`](https://github.com/ajensenwaud/hermes-jev-plugin/blob/HEAD/client.py), read 2026-09-22 · ⚠ `one commit`</sub>
+
 - **[invalidate](https://github.com/chopratejas/invalidate)** — The invalidation layer for AI memory. Every fact gets a lease; new evidence ends it. Built on TypeSafe Jev. <sub>(upstream description)</sub>
   <sub>`Project` · ★10+ · chopratejas · `Py` · call site [`evals/screen_matrix.py`](https://github.com/chopratejas/invalidate/blob/HEAD/evals/screen_matrix.py), read 2026-09-22</sub>
 
@@ -176,6 +179,9 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 - **[pi-heed](https://github.com/Nyarlathoteppppp/pi-heed)** — Runtime constraints for the pi coding agent: checks every side-effecting tool call against what you said, before it runs. Powered by TypeSafe Jev. <sub>(upstream description)</sub>
   <sub>`Project` · ★10+ · nyarlathoteppppp · `TS` · call site [`bench/jev-lab.ts`](https://github.com/Nyarlathoteppppp/pi-heed/blob/HEAD/bench/jev-lab.ts), read 2026-09-22</sub>
 
+- **[Sedum (npm: sedum-cli)](https://github.com/sedum-dev/sedum)** — Plain-English browser end-to-end tests next to Playwright code. In goal mode a Jev Choice picks each next operation (click, type, done or blocked) and its target; authored steps use a Choice per sentence; each verify claim is two Nouls (holds, contradicted). Playwright acts; code applies thresholds.
+  <sub>`Project` · ★10+ · sedum-dev · `TS` · `choice` · `noul` · call site [`packages/provider-typesafe/src/index.ts`](https://github.com/sedum-dev/sedum/blob/HEAD/packages/provider-typesafe/src/index.ts), read 2026-09-30 · ⚠ `unverified claims` `self-submitted`</sub>
+
 - **[smartmoney-cub](https://github.com/myc0576/SmartMoney-Cub)** — Read-only trading journal and review harness: Jev typed judgments, agent integration, and a reproducible finance benchmark. No orders, no advice. <sub>(upstream description)</sub>
   <sub>`Benchmark` · ★10+ · myc0576 · `Py` · call site [`src/smartmoney_cub_harness/jev/direct.py`](https://github.com/myc0576/SmartMoney-Cub/blob/HEAD/src/smartmoney_cub_harness/jev/direct.py), read 2026-09-22 · author's conclusion: mixed (author-stated, not reproduced here)</sub>
 
@@ -197,8 +203,8 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 - **[agent-gate-loop](https://github.com/Ripwords/agent-gate-loop)** — Reusable GitHub Action: agent fix loop gated by checks, an AI reviewer, and TypeSafe Jev <sub>(upstream description)</sub>
   <sub>`Project` · ripwords · `TS` · call site [`src/jev.ts`](https://github.com/Ripwords/agent-gate-loop/blob/HEAD/src/jev.ts), read 2026-09-22 · ⚠ `no licence`</sub>
 
-- **[agent-handoff-gate](https://github.com/zsoXi/agent-handoff-gate)** — An experimental protocol for evidence-aware agent handoffs, bounded worker continuation, and TypeSafe/Jev-assisted review, with reproducible evaluation. <sub>(upstream description)</sub>
-  <sub>`Benchmark` · zsoxi · `Py` · call site [`tools/build_benchmark_prompts.py`](https://github.com/zsoXi/agent-handoff-gate/blob/HEAD/tools/build_benchmark_prompts.py), read 2026-09-22 · ⚠ `one commit`</sub>
+- **[agent-handoff-gate](https://github.com/zsoXi/agent-handoff-gate)** — An experimental protocol for evidence-aware agent handoffs, bounded worker continuation, and TypeSafe/Jev-assisted review, with reproducible evaluation. <sub>(earlier upstream description)</sub>
+  <sub>`Benchmark` · zsoxi · `Py` · call site [`tools/build_benchmark_prompts.py`](https://github.com/zsoXi/agent-handoff-gate/blob/HEAD/tools/build_benchmark_prompts.py), read 2026-09-22 · ⚠ `one commit` `archived`</sub>
 
 - **[assay-001](https://github.com/jourdanlabs/assay-001)** — ASSAY-001: independent, pre-registered verification of TypeSafe Jev's calibration and type-safety claims. Split verdict, published in full. <sub>(upstream description)</sub>
   <sub>`Project` · jourdanlabs · `Py` · call site [`harness/run.py`](https://github.com/jourdanlabs/assay-001/blob/HEAD/harness/run.py), read 2026-09-22 · ⚠ `no licence`</sub>
@@ -223,9 +229,6 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 
 - **[Footwork](https://github.com/Tom-R-Main/Footwork)** — A verified browser agent: a cheap Jev guard (evidence-checked completions, a destructive gate) in front of any LLM browser driver, with Jev taking the mechanical steps in dual mode. Built on browser-use; every number pre-registered and measured. <sub>(upstream description)</sub>
   <sub>`Project` · tom-r-main · `Py` · call site [`jevdual/evals/runner.py`](https://github.com/Tom-R-Main/Footwork/blob/HEAD/jevdual/evals/runner.py), read 2026-09-24</sub>
-
-- **[hermes-jev-plugin](https://github.com/ajensenwaud/hermes-jev-plugin)** — TypeSafe Jev (System One) decision tools for Hermes Agent: jev_check / jev_route / jev_score / jev_evaluate <sub>(upstream description)</sub>
-  <sub>`Plugin` · ajensenwaud · `Py` · call site [`client.py`](https://github.com/ajensenwaud/hermes-jev-plugin/blob/HEAD/client.py), read 2026-09-22 · ⚠ `one commit`</sub>
 
 - **[human-compiler](https://github.com/asfarsadewa/human-compiler)** — A compiler for human language. Paste text, get diagnostics. Measured by TypeSafe Jev. <sub>(upstream description)</sub>
   <sub>`Project` · asfarsadewa · `TS` · call site [`src/worker/index.ts`](https://github.com/asfarsadewa/human-compiler/blob/HEAD/src/worker/index.ts), read 2026-09-22</sub>
@@ -391,9 +394,6 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 
 - **[riff](https://github.com/scale-venture-partners/riff)** — A small, fast prose linter: ruff-style rule codes for writing, backed by TypeSafe's Jev model <sub>(upstream description)</sub>
   <sub>`Project` · scale-venture-partners · `Py` · call site [`src/riff/jev.py`](https://github.com/scale-venture-partners/riff/blob/HEAD/src/riff/jev.py), read 2026-09-22</sub>
-
-- **[Sedum (npm: sedum-cli)](https://github.com/sedum-dev/sedum)** — Plain-English browser end-to-end tests next to Playwright code. In goal mode a Jev Choice picks each next operation (click, type, done or blocked) and its target; authored steps use a Choice per sentence; each verify claim is two Nouls (holds, contradicted). Playwright acts; code applies thresholds.
-  <sub>`Project` · sedum-dev · `TS` · `choice` · `noul` · call site [`packages/provider-typesafe/src/index.ts`](https://github.com/sedum-dev/sedum/blob/HEAD/packages/provider-typesafe/src/index.ts), read 2026-09-30 · ⚠ `unverified claims` `self-submitted`</sub>
 
 - **[semantic-assert](https://github.com/mondaychen/semantic-assert)** — Testing lib for asserting the real requirement. <sub>(upstream description)</sub>
   <sub>`SDK` · mondaychen · `TS` · call site [`packages/semantic-assert-typesafe/src/client.ts`](https://github.com/mondaychen/semantic-assert/blob/HEAD/packages/semantic-assert-typesafe/src/client.ts), read 2026-09-24</sub>

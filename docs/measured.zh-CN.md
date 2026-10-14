@@ -115,10 +115,10 @@
   <sub>`基准测试` · ★10+ · nekuda-ai · `TS` · [调用点](https://github.com/nekuda-ai/WindTunnel/blob/HEAD/experiments/jev/frozen/arms/decision-providers.mjs)，2026-09-22 阅读</sub>
 
 - **[agent-handoff-gate](https://github.com/zsoXi/agent-handoff-gate)**<br>
-  面向证据感知的智能体交接与有界工作续跑的实验性协议。 <sub>(项目自述)</sub> <sub>(机翻)</sub><br>
+  面向证据感知的智能体交接与有界工作续跑的实验性协议。 <sub>(项目旧自述)</sub> <sub>(机翻)</sub><br>
   <sub>`基准测试` · zsoxi · `Py` · [调用点](https://github.com/zsoXi/agent-handoff-gate/blob/HEAD/tools/build_benchmark_prompts.py)，2026-09-22 阅读</sub>
 
-  **注意:** `仅一次提交`
+  **注意:** `仅一次提交` · `已归档`
 
 - **[antigravity-mcp-semantic-search-with-typesafeai](https://github.com/greenyamao/Antigravity-mcp-semantic-search-with-TypeSafeAi)**<br>
   给 AI 编程助手的快速语义代码搜索与 diff 合理性审查。 <sub>(项目自述)</sub> <sub>(机翻)</sub><br>
@@ -162,9 +162,9 @@
   TypeSafe AI Jev 在智能体工具调用风险分类上的可复现基准：准确率、延迟，以及其置信度是否可信。 <sub>(项目自述)</sub> <sub>(机翻)</sub><br>
   <sub>`基准测试` · themsquared · `Py` · [调用点](https://github.com/themsquared/jev-benchmark/blob/HEAD/bench.py)，2026-09-24 阅读</sub>
 
-- **[jev-calibration-audit](https://github.com/jujumilk3/jev-calibration-audit)**<br>
+- **[jev-calibration-audit](https://github.com/tapesymbolstate/jev-calibration-audit)**<br>
   仅通过 API 对 Jev 做的独立校准审计。 <sub>(项目自述)</sub> <sub>(机翻)</sub><br>
-  <sub>`基准测试` · jujumilk3 · `Py` · [调用点](https://github.com/jujumilk3/jev-calibration-audit/blob/HEAD/src/jev_audit/client.py)，2026-09-22 阅读</sub>
+  <sub>`基准测试` · jujumilk3 · `Py` · [调用点](https://github.com/tapesymbolstate/jev-calibration-audit/blob/HEAD/src/jev_audit/client.py)，2026-09-22 阅读</sub>
 
   **注意:** `仅一次提交`
 

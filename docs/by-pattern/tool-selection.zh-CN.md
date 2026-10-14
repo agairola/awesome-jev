@@ -228,9 +228,6 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 - **[jev-agent-browser](https://github.com/forvela/jev-agent-browser)** — 由 Jev 驱动的快速有界浏览器智能体：类型化动作、调研、分类与安全编排。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ★10+ · forvela · `JS` · 调用点 [`src/decision.js`](https://github.com/forvela/jev-agent-browser/blob/HEAD/src/decision.js)，2026-09-22 阅读</sub>
 
-- **[jev-agent-design-with-topk-logits-choices](https://github.com/6Mikao9/jev-native-agent-with-extended-options)** — 一个原生面向 Jev 的智能体系统研究设计：工具集成、推测性参数提议、外部辅助 logits 等。 <sub>(机翻)</sub>
-  <sub>`开源项目` · ★10+ · 6mikao9 · `Py` · 调用点 [`benchmarks/benchmark_jev_latency_breakdown.py`](https://github.com/6Mikao9/jev-native-agent-with-extended-options/blob/HEAD/benchmarks/benchmark_jev_latency_breakdown.py)，2026-09-24 阅读 · ⚠ `无许可证`</sub>
-
 - **[Jev-as-Policy](https://github.com/YuanKJing/Jev-as-Policy)** — “JEV 作为策略”的开源仓库：一键搭建仿真环境，用 Jev 选择动作。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ★10+ · yuankjing · `Py` · 调用点 [`jev_policy.py`](https://github.com/YuanKJing/Jev-as-Policy/blob/HEAD/jev_policy.py)，2026-09-24 阅读</sub>
 
@@ -281,6 +278,9 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 
 - **[jev-mail-classifier](https://github.com/parth-kp/jev-mail-classifier)** — 用 Jev 给收件箱分类：打标、移动、标记、通知，全部配置驱动。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ★10+ · parth-kp · `Py` · 调用点 [`jev_mail/providers/typesafe_direct.py`](https://github.com/parth-kp/jev-mail-classifier/blob/HEAD/jev_mail/providers/typesafe_direct.py)，2026-09-22 阅读</sub>
+
+- **[jev-mobile](https://github.com/Friedjof/jev-mobile)** — 结合 Mobile MCP 的快速 Android 结构化控制循环。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
+  <sub>`插件` · ★10+ · friedjof · `Py` · 调用点 [`src/jev_mobile/cli.py`](https://github.com/Friedjof/jev-mobile/blob/HEAD/src/jev_mobile/cli.py)，2026-09-22 阅读</sub>
 
 - **[jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab)** — 多无人机自主实验室：展示 Jev 的反射式决策，可选叠加 System 2 战略指导。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★10+ · khordoo · `TS` · 调用点 [`lib/reflex/jev-server.ts`](https://github.com/khordoo/jev-reflex-autonomy-lab/blob/HEAD/lib/reflex/jev-server.ts)，2026-09-22 阅读</sub>
@@ -356,6 +356,9 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 
 - **[robojev](https://github.com/lykycy123/RoboJEV)** — 在 MuJoCo 里对 Franka Panda 做两阶段 JEV 控制。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ★10+ · lykycy123 · `Py` · 调用点 [`src/jev_vla_sim/config.py`](https://github.com/lykycy123/RoboJEV/blob/HEAD/src/jev_vla_sim/config.py)，2026-09-22 阅读</sub>
+
+- **[Sedum (npm: sedum-cli)](https://github.com/sedum-dev/sedum)** — 在 Playwright 代码旁用纯英文句子编写浏览器端到端测试。目标模式下，由 Jev 的 Choice 选出每一步操作（点击、输入、完成或受阻）及其目标；逐句步骤每句用一个 Choice；每条验证断言是两个 Noul（holds、contradicted）。动作由 Playwright 执行，阈值由代码判定。 <sub>(机翻)</sub>
+  <sub>`开源项目` · ★10+ · sedum-dev · `TS` · `choice` · `noul` · 调用点 [`packages/provider-typesafe/src/index.ts`](https://github.com/sedum-dev/sedum/blob/HEAD/packages/provider-typesafe/src/index.ts)，2026-09-30 阅读 · ⚠ `宣称未核实` `作者自荐`</sub>
 
 - **[smartmoney-cub](https://github.com/myc0576/SmartMoney-Cub)** — 只读的交易日志与复盘 harness：Jev 类型化判断、智能体集成，以及一个可复现的金融基准。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`基准测试` · ★10+ · myc0576 · `Py` · 调用点 [`src/smartmoney_cub_harness/jev/direct.py`](https://github.com/myc0576/SmartMoney-Cub/blob/HEAD/src/smartmoney_cub_harness/jev/direct.py)，2026-09-22 阅读 · 作者结论：好坏参半（作者自述，未经本仓库复现）</sub>
@@ -440,6 +443,9 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 
 - **[jev-A-share-trader](https://github.com/Eric-Zhou-0302/jev-A-share-trader)** — 由 Jev 驱动的中国 A 股技术分析工作台，支持 AKShare/Tushare、市场扫描以及买入/持有/卖出建议。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · eric-zhou-0302 · `Py` · 调用点 [`src/jev_trader/jev.py`](https://github.com/Eric-Zhou-0302/jev-A-share-trader/blob/HEAD/src/jev_trader/jev.py)，2026-09-24 阅读</sub>
+
+- **[jev-agent-design-with-topk-logits-choices](https://github.com/6Mikao9/jev-native-agent-with-extended-options)** — 一个原生面向 Jev 的智能体系统研究设计：工具集成、推测性参数提议、外部辅助 logits 等。 <sub>(机翻)</sub>
+  <sub>`开源项目` · 6mikao9 · `Py` · 调用点 [`benchmarks/benchmark_jev_latency_breakdown.py`](https://github.com/6Mikao9/jev-native-agent-with-extended-options/blob/HEAD/benchmarks/benchmark_jev_latency_breakdown.py)，2026-09-24 阅读 · ⚠ `无许可证`</sub>
 
 - **[jev-agent-skill](https://github.com/yuyang2230/jev-agent-skill)** — 给 AI 智能体的免费类型化判断：把分类／筛查／打分／校验卸载给 Jev。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`插件` · yuyang2230 · `Py` · 调用点 [`jev.py`](https://github.com/yuyang2230/jev-agent-skill/blob/HEAD/jev.py)，2026-09-22 阅读</sub>
@@ -530,9 +536,6 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 
 - **[jev-market-reflex](https://github.com/zzsong1023/jev-market-reflex)** — 用 TypeSafe AI Jev 在实时加密市场上做快速的类型化决策。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · zzsong1023 · `TS` · 调用点 [`src/jev.ts`](https://github.com/zzsong1023/jev-market-reflex/blob/HEAD/src/jev.ts)，2026-09-24 阅读 · ⚠ `仅一次提交`</sub>
-
-- **[jev-mobile](https://github.com/Friedjof/jev-mobile)** — 结合 Mobile MCP 的快速 Android 结构化控制循环。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
-  <sub>`插件` · friedjof · `Py` · 调用点 [`src/jev_mobile/cli.py`](https://github.com/Friedjof/jev-mobile/blob/HEAD/src/jev_mobile/cli.py)，2026-09-22 阅读</sub>
 
 - **[jev-mobile](https://github.com/xinwang-nwpu/jev-mobile)** — 在无障碍树上每一步做一次 TypeSafe Jev 决策，通过 ADB 执行。不需要截图，速度极快。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · xinwang-nwpu · `Py` · 调用点 [`jev_mobile/model.py`](https://github.com/xinwang-nwpu/jev-mobile/blob/HEAD/jev_mobile/model.py)，2026-09-24 阅读</sub>
@@ -677,9 +680,6 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 
 - **[s1s](https://github.com/cpaczek/s1s)** — System One 搜索：用类型化判断与仓库证据导航与追踪代码。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · cpaczek · `TS` · 调用点 [`src/client.ts`](https://github.com/cpaczek/s1s/blob/HEAD/src/client.ts)，2026-09-22 阅读</sub>
-
-- **[Sedum (npm: sedum-cli)](https://github.com/sedum-dev/sedum)** — 在 Playwright 代码旁用纯英文句子编写浏览器端到端测试。目标模式下，由 Jev 的 Choice 选出每一步操作（点击、输入、完成或受阻）及其目标；逐句步骤每句用一个 Choice；每条验证断言是两个 Noul（holds、contradicted）。动作由 Playwright 执行，阈值由代码判定。 <sub>(机翻)</sub>
-  <sub>`开源项目` · sedum-dev · `TS` · `choice` · `noul` · 调用点 [`packages/provider-typesafe/src/index.ts`](https://github.com/sedum-dev/sedum/blob/HEAD/packages/provider-typesafe/src/index.ts)，2026-09-30 阅读 · ⚠ `宣称未核实` `作者自荐`</sub>
 
 - **[slidepilot](https://github.com/harshil1712/slidepilot)** — 给 Slidev 做的语音驱动语义自动翻页，由 Cloudflare Agents 与 Jev 驱动。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · harshil1712 · `TS` · 调用点 [`apps/worker/src/decision.ts`](https://github.com/harshil1712/slidepilot/blob/HEAD/apps/worker/src/decision.ts)，2026-09-22 阅读</sub>

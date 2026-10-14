@@ -150,8 +150,8 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 - **[jev-block-android-ad](https://github.com/ufec/jev-block-android-ad)** — Android 上的通知与短信过滤：不是匹配关键词，而是由模型判断。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ufec · `Kt` · 调用点 [`app/src/main/kotlin/me/ethanxu/jevnoisegate/app/ProxyProbe.kt`](https://github.com/ufec/jev-block-android-ad/blob/HEAD/app/src/main/kotlin/me/ethanxu/jevnoisegate/app/ProxyProbe.kt)，2026-09-22 阅读</sub>
 
-- **[jev-calibration-audit](https://github.com/jujumilk3/jev-calibration-audit)** — 仅通过 API 对 Jev 做的独立校准审计。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
-  <sub>`基准测试` · jujumilk3 · `Py` · 调用点 [`src/jev_audit/client.py`](https://github.com/jujumilk3/jev-calibration-audit/blob/HEAD/src/jev_audit/client.py)，2026-09-22 阅读 · ⚠ `仅一次提交`</sub>
+- **[jev-calibration-audit](https://github.com/tapesymbolstate/jev-calibration-audit)** — 仅通过 API 对 Jev 做的独立校准审计。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
+  <sub>`基准测试` · jujumilk3 · `Py` · 调用点 [`src/jev_audit/client.py`](https://github.com/tapesymbolstate/jev-calibration-audit/blob/HEAD/src/jev_audit/client.py)，2026-09-22 阅读 · ⚠ `仅一次提交`</sub>
 
 - **[jev-eval](https://github.com/4esv/jev-eval)** — 在你自己的标注分类数据上，把 Jev 与任意 OpenRouter 模型做基准对比：准确率与校准度。 <sub>(机翻)</sub>
   <sub>`基准测试` · 4esv · `Py` · 调用点 [`evaljev/runners.py`](https://github.com/4esv/jev-eval/blob/HEAD/evaljev/runners.py)，2026-09-22 阅读 · ⚠ `无许可证`</sub>

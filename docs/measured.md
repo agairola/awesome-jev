@@ -115,10 +115,10 @@ Rows whose own author measured Jev for the use and concluded against it: a bench
   <sub>`Benchmark` · ★10+ · nekuda-ai · `TS` · [call site](https://github.com/nekuda-ai/WindTunnel/blob/HEAD/experiments/jev/frozen/arms/decision-providers.mjs), read 2026-09-22</sub>
 
 - **[agent-handoff-gate](https://github.com/zsoXi/agent-handoff-gate)**<br>
-  An experimental protocol for evidence-aware agent handoffs, bounded worker continuation, and TypeSafe/Jev-assisted review, with reproducible evaluation. <sub>(upstream description)</sub><br>
+  An experimental protocol for evidence-aware agent handoffs, bounded worker continuation, and TypeSafe/Jev-assisted review, with reproducible evaluation. <sub>(earlier upstream description)</sub><br>
   <sub>`Benchmark` · zsoxi · `Py` · [call site](https://github.com/zsoXi/agent-handoff-gate/blob/HEAD/tools/build_benchmark_prompts.py), read 2026-09-22</sub>
 
-  **Caveats:** `one commit`
+  **Caveats:** `one commit` · `archived`
 
 - **[antigravity-mcp-semantic-search-with-typesafeai](https://github.com/greenyamao/Antigravity-mcp-semantic-search-with-TypeSafeAi)**<br>
   Fast semantic code search & diff sanity auditor for AI coding assistants (Antigravity, Cursor, Claude Code) powered by TypeSafe System One. <sub>(upstream description)</sub><br>
@@ -162,9 +162,9 @@ Rows whose own author measured Jev for the use and concluded against it: a bench
   Reproducible benchmark for TypeSafe AI's Jev on agent tool-call risk classification: accuracy, latency, and whether the confidence score is worth routing on. <sub>(upstream description)</sub><br>
   <sub>`Benchmark` · themsquared · `Py` · [call site](https://github.com/themsquared/jev-benchmark/blob/HEAD/bench.py), read 2026-09-24</sub>
 
-- **[jev-calibration-audit](https://github.com/jujumilk3/jev-calibration-audit)**<br>
+- **[jev-calibration-audit](https://github.com/tapesymbolstate/jev-calibration-audit)**<br>
   Independent API-only calibration audit of TypeSafe AI's Jev decision model <sub>(upstream description)</sub><br>
-  <sub>`Benchmark` · jujumilk3 · `Py` · [call site](https://github.com/jujumilk3/jev-calibration-audit/blob/HEAD/src/jev_audit/client.py), read 2026-09-22</sub>
+  <sub>`Benchmark` · jujumilk3 · `Py` · [call site](https://github.com/tapesymbolstate/jev-calibration-audit/blob/HEAD/src/jev_audit/client.py), read 2026-09-22</sub>
 
   **Caveats:** `one commit`
 

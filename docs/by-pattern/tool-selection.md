@@ -228,9 +228,6 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 - **[jev-agent-browser](https://github.com/forvela/jev-agent-browser)** — Fast, bounded browser agents powered by Jev and agent-browser — typed actions, research, classification, and safe orchestration. <sub>(upstream description)</sub>
   <sub>`Project` · ★10+ · forvela · `JS` · call site [`src/decision.js`](https://github.com/forvela/jev-agent-browser/blob/HEAD/src/decision.js), read 2026-09-22</sub>
 
-- **[jev-agent-design-with-topk-logits-choices](https://github.com/6Mikao9/jev-native-agent-with-extended-options)** — Research design for a Jev-native agent system: tool integration, speculative parameter proposals, external helper logits Top-k proposals with Jev-controlled fallback ,decision-aware hierarchical memory…
-  <sub>`Project` · ★10+ · 6mikao9 · `Py` · call site [`benchmarks/benchmark_jev_latency_breakdown.py`](https://github.com/6Mikao9/jev-native-agent-with-extended-options/blob/HEAD/benchmarks/benchmark_jev_latency_breakdown.py), read 2026-09-24 · ⚠ `no licence`</sub>
-
 - **[Jev-as-Policy](https://github.com/YuanKJing/Jev-as-Policy)** — The highly anticipated open-source repository for JEV as Policy enables one-click setup of the simulation environment. Evaluations of Astra + JEV on benchmarks such as RoboTwin will also be released soon. <sub>(upstream description)</sub>
   <sub>`Project` · ★10+ · yuankjing · `Py` · call site [`jev_policy.py`](https://github.com/YuanKJing/Jev-as-Policy/blob/HEAD/jev_policy.py), read 2026-09-24</sub>
 
@@ -281,6 +278,9 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 
 - **[jev-mail-classifier](https://github.com/parth-kp/jev-mail-classifier)** — Classify your inbox with Jev (TypeSafe's System One model) — tag, move, flag, and notify, all config-driven. <sub>(upstream description)</sub>
   <sub>`Project` · ★10+ · parth-kp · `Py` · call site [`jev_mail/providers/typesafe_direct.py`](https://github.com/parth-kp/jev-mail-classifier/blob/HEAD/jev_mail/providers/typesafe_direct.py), read 2026-09-22</sub>
+
+- **[jev-mobile](https://github.com/Friedjof/jev-mobile)** — Fast structured Android control loops with TypeSafe Jev and Mobile MCP <sub>(upstream description)</sub>
+  <sub>`Plugin` · ★10+ · friedjof · `Py` · call site [`src/jev_mobile/cli.py`](https://github.com/Friedjof/jev-mobile/blob/HEAD/src/jev_mobile/cli.py), read 2026-09-22</sub>
 
 - **[jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab)** — Multi-drone autonomy lab demonstrating TypeSafe Jev reflex decisions with optional System 2 strategy guidance.
   <sub>`Project` · ★10+ · khordoo · `TS` · call site [`lib/reflex/jev-server.ts`](https://github.com/khordoo/jev-reflex-autonomy-lab/blob/HEAD/lib/reflex/jev-server.ts), read 2026-09-22</sub>
@@ -356,6 +356,9 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 
 - **[robojev](https://github.com/lykycy123/RoboJEV)** — Two-stage JEV control of a Franka Panda in MuJoCo <sub>(upstream description)</sub>
   <sub>`Project` · ★10+ · lykycy123 · `Py` · call site [`src/jev_vla_sim/config.py`](https://github.com/lykycy123/RoboJEV/blob/HEAD/src/jev_vla_sim/config.py), read 2026-09-22</sub>
+
+- **[Sedum (npm: sedum-cli)](https://github.com/sedum-dev/sedum)** — Plain-English browser end-to-end tests next to Playwright code. In goal mode a Jev Choice picks each next operation (click, type, done or blocked) and its target; authored steps use a Choice per sentence; each verify claim is two Nouls (holds, contradicted). Playwright acts; code applies thresholds.
+  <sub>`Project` · ★10+ · sedum-dev · `TS` · `choice` · `noul` · call site [`packages/provider-typesafe/src/index.ts`](https://github.com/sedum-dev/sedum/blob/HEAD/packages/provider-typesafe/src/index.ts), read 2026-09-30 · ⚠ `unverified claims` `self-submitted`</sub>
 
 - **[smartmoney-cub](https://github.com/myc0576/SmartMoney-Cub)** — Read-only trading journal and review harness: Jev typed judgments, agent integration, and a reproducible finance benchmark. No orders, no advice. <sub>(upstream description)</sub>
   <sub>`Benchmark` · ★10+ · myc0576 · `Py` · call site [`src/smartmoney_cub_harness/jev/direct.py`](https://github.com/myc0576/SmartMoney-Cub/blob/HEAD/src/smartmoney_cub_harness/jev/direct.py), read 2026-09-22 · author's conclusion: mixed (author-stated, not reproduced here)</sub>
@@ -440,6 +443,9 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 
 - **[jev-A-share-trader](https://github.com/Eric-Zhou-0302/jev-A-share-trader)** — A Jev-powered technical analysis workspace for China A-shares, supporting AKShare/Tushare, market scans, and Buy/Hold/Sell assessments with time horizons and traceable evidence. <sub>(upstream description)</sub>
   <sub>`Project` · eric-zhou-0302 · `Py` · call site [`src/jev_trader/jev.py`](https://github.com/Eric-Zhou-0302/jev-A-share-trader/blob/HEAD/src/jev_trader/jev.py), read 2026-09-24</sub>
+
+- **[jev-agent-design-with-topk-logits-choices](https://github.com/6Mikao9/jev-native-agent-with-extended-options)** — Research design for a Jev-native agent system: tool integration, speculative parameter proposals, external helper logits Top-k proposals with Jev-controlled fallback ,decision-aware hierarchical memory…
+  <sub>`Project` · 6mikao9 · `Py` · call site [`benchmarks/benchmark_jev_latency_breakdown.py`](https://github.com/6Mikao9/jev-native-agent-with-extended-options/blob/HEAD/benchmarks/benchmark_jev_latency_breakdown.py), read 2026-09-24 · ⚠ `no licence`</sub>
 
 - **[jev-agent-skill](https://github.com/yuyang2230/jev-agent-skill)** — Free typed judgments for AI agents: offload classify/screen/score/verify to Jev (TypeSafe System One) via OpenCode Zen. Claude Code / ZCode skill. 给AI代理省token的免费决策分流技能 <sub>(upstream description)</sub>
   <sub>`Plugin` · yuyang2230 · `Py` · call site [`jev.py`](https://github.com/yuyang2230/jev-agent-skill/blob/HEAD/jev.py), read 2026-09-22</sub>
@@ -530,9 +536,6 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 
 - **[jev-market-reflex](https://github.com/zzsong1023/jev-market-reflex)** — Fast typed AI decisions on live crypto markets using TypeSafe AI Jev. <sub>(upstream description)</sub>
   <sub>`Project` · zzsong1023 · `TS` · call site [`src/jev.ts`](https://github.com/zzsong1023/jev-market-reflex/blob/HEAD/src/jev.ts), read 2026-09-24 · ⚠ `one commit`</sub>
-
-- **[jev-mobile](https://github.com/Friedjof/jev-mobile)** — Fast structured Android control loops with TypeSafe Jev and Mobile MCP <sub>(upstream description)</sub>
-  <sub>`Plugin` · friedjof · `Py` · call site [`src/jev_mobile/cli.py`](https://github.com/Friedjof/jev-mobile/blob/HEAD/src/jev_mobile/cli.py), read 2026-09-22</sub>
 
 - **[jev-mobile](https://github.com/xinwang-nwpu/jev-mobile)** — One TypeSafe Jev decision per step over the A11Y tree, executed via ADB. No screenshots and ultra fast! <sub>(upstream description)</sub>
   <sub>`Project` · xinwang-nwpu · `Py` · call site [`jev_mobile/model.py`](https://github.com/xinwang-nwpu/jev-mobile/blob/HEAD/jev_mobile/model.py), read 2026-09-24</sub>
@@ -677,9 +680,6 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 
 - **[s1s](https://github.com/cpaczek/s1s)** — System One Search: navigate and trace code with TypeSafe judgments and repository evidence <sub>(upstream description)</sub>
   <sub>`Project` · cpaczek · `TS` · call site [`src/client.ts`](https://github.com/cpaczek/s1s/blob/HEAD/src/client.ts), read 2026-09-22</sub>
-
-- **[Sedum (npm: sedum-cli)](https://github.com/sedum-dev/sedum)** — Plain-English browser end-to-end tests next to Playwright code. In goal mode a Jev Choice picks each next operation (click, type, done or blocked) and its target; authored steps use a Choice per sentence; each verify claim is two Nouls (holds, contradicted). Playwright acts; code applies thresholds.
-  <sub>`Project` · sedum-dev · `TS` · `choice` · `noul` · call site [`packages/provider-typesafe/src/index.ts`](https://github.com/sedum-dev/sedum/blob/HEAD/packages/provider-typesafe/src/index.ts), read 2026-09-30 · ⚠ `unverified claims` `self-submitted`</sub>
 
 - **[slidepilot](https://github.com/harshil1712/slidepilot)** — Voice-driven semantic auto-advance for Slidev, powered by Cloudflare Agents and TypeSafe AI Jev <sub>(upstream description)</sub>
   <sub>`Project` · harshil1712 · `TS` · call site [`apps/worker/src/decision.ts`](https://github.com/harshil1712/slidepilot/blob/HEAD/apps/worker/src/decision.ts), read 2026-09-22</sub>

@@ -150,8 +150,8 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 - **[jev-block-android-ad](https://github.com/ufec/jev-block-android-ad)** — JevNoiseGate filters unwanted notifications and SMS on Android. Rather than matching keywords, an LLM decides what's noise — and only what it explicitly flags is blocked. Verification codes are matched on-device and never uploaded; anything uncertain passes through. <sub>(upstream description)</sub>
   <sub>`Project` · ufec · `Kt` · call site [`app/src/main/kotlin/me/ethanxu/jevnoisegate/app/ProxyProbe.kt`](https://github.com/ufec/jev-block-android-ad/blob/HEAD/app/src/main/kotlin/me/ethanxu/jevnoisegate/app/ProxyProbe.kt), read 2026-09-22</sub>
 
-- **[jev-calibration-audit](https://github.com/jujumilk3/jev-calibration-audit)** — Independent API-only calibration audit of TypeSafe AI's Jev decision model <sub>(upstream description)</sub>
-  <sub>`Benchmark` · jujumilk3 · `Py` · call site [`src/jev_audit/client.py`](https://github.com/jujumilk3/jev-calibration-audit/blob/HEAD/src/jev_audit/client.py), read 2026-09-22 · ⚠ `one commit`</sub>
+- **[jev-calibration-audit](https://github.com/tapesymbolstate/jev-calibration-audit)** — Independent API-only calibration audit of TypeSafe AI's Jev decision model <sub>(upstream description)</sub>
+  <sub>`Benchmark` · jujumilk3 · `Py` · call site [`src/jev_audit/client.py`](https://github.com/tapesymbolstate/jev-calibration-audit/blob/HEAD/src/jev_audit/client.py), read 2026-09-22 · ⚠ `one commit`</sub>
 
 - **[jev-eval](https://github.com/4esv/jev-eval)** — Benchmark TypeSafe Jev against any OpenRouter model on your own labelled classification data: accuracy, calibration, latency, cost
   <sub>`Benchmark` · 4esv · `Py` · call site [`evaljev/runners.py`](https://github.com/4esv/jev-eval/blob/HEAD/evaljev/runners.py), read 2026-09-22 · ⚠ `no licence`</sub>

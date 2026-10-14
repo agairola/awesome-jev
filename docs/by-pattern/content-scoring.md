@@ -417,7 +417,7 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
   <sub>`Project` · lgy1027 · `Py` · call site [`jevshield/client.py`](https://github.com/lgy1027/jevshield/blob/HEAD/jevshield/client.py), read 2026-09-22</sub>
 
 - **[judging-with-typesafe](https://github.com/carlsonchik/judging-with-typesafe)** — Скилл для агентов Letta: суждения по критериям через TypeSafe System One (Jev) <sub>(upstream description)</sub>
-  <sub>`Project` · carlsonchik · `Py` · call site [`skills/judging-with-typesafe/scripts/typesafe.py`](https://github.com/carlsonchik/judging-with-typesafe/blob/HEAD/skills/judging-with-typesafe/scripts/typesafe.py), read 2026-09-22 · ⚠ `no licence`</sub>
+  <sub>`Project` · carlsonchik · `Py` · call site [`skills/judging-with-typesafe/scripts/typesafe.py`](https://github.com/carlsonchik/judging-with-typesafe/blob/HEAD/skills/judging-with-typesafe/scripts/typesafe.py), read 2026-09-22</sub>
 
 - **[leanest](https://github.com/baronunread/leanest)** — Local-first test selector using Jev judgments to determine which tests are affected by a code change <sub>(upstream description)</sub>
   <sub>`Project` · baronunread · `TS` · call site [`packages/judge/src/providers/jev.ts`](https://github.com/baronunread/leanest/blob/HEAD/packages/judge/src/providers/jev.ts), read 2026-09-22</sub>

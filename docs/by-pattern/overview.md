@@ -128,6 +128,9 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 - **[jevk5](https://github.com/allebee/jevk5)** — JevK5: open-weight alternative to TypeSafe Jev. Typed decisions with probabilities in one forward pass; Apache-2.0 weights and code. <sub>(upstream description)</sub>
   <sub>`Jev-like alternative` · ★100+ · allebee · `Py` · cited file [`jevk5/prompt.py`](https://github.com/allebee/jevk5/blob/HEAD/jevk5/prompt.py), read 2026-09-24 · ⚠ `not Jev itself`</sub>
 
+- **[laya-server](https://github.com/1Panel-dev/laya-server)** — A self-hosted API and web interface for Laya’s structured decision models, compatible with the TypeSafe Jev API format. <sub>(upstream description)</sub>
+  <sub>`Jev-like alternative` · ★100+ · 1panel-dev · `TS` · cited file [`backend/server/main.py`](https://github.com/1Panel-dev/laya-server/blob/HEAD/backend/server/main.py), read 2026-09-24 · ⚠ `not Jev itself`</sub>
+
 - **[localjev](https://github.com/githubnext/localjev)** — GitHub Next's local, Jev-compatible POST /v1/systemone API in TypeScript, reading probabilities from a DiffusionGemma model through a one-step structured read on a patched vLLM. It reimplements the wire, not the model.
   <sub>`Jev-like alternative` · ★100+ · githubnext · `TS` · cited file [`src/server.ts`](https://github.com/githubnext/localjev/blob/HEAD/src/server.ts), read 2026-09-24 · ⚠ `not Jev itself`</sub>
 
@@ -200,9 +203,6 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 - **[jevper](https://github.com/zhulinchng/jevper)** — Jev-shaped (TypeSafe System One) classification wrapper over OpenAI-like clients: probabilities and confidence instead of prose
   <sub>`Jev-like alternative` · ★10+ · zhulinchng · `Py` · cited file [`src/jevper/types.py`](https://github.com/zhulinchng/jevper/blob/HEAD/src/jevper/types.py), read 2026-09-24 · ⚠ `not Jev itself`</sub>
 
-- **[laya-server](https://github.com/1Panel-dev/laya-server)** — A self-hosted API and web interface for Laya’s structured decision models, compatible with the TypeSafe Jev API format. <sub>(upstream description)</sub>
-  <sub>`Jev-like alternative` · ★10+ · 1panel-dev · `TS` · cited file [`backend/server/main.py`](https://github.com/1Panel-dev/laya-server/blob/HEAD/backend/server/main.py), read 2026-09-24 · ⚠ `not Jev itself`</sub>
-
 - **[learn-jev-end-to-end](https://github.com/harshithsunku/learn-jev-end-to-end)** — Learn Jev end to end: a free hands-on course. Build 13 AI agent use cases with a fast brain (Jev) and a slow brain (LLM). One OpenRouter key. <sub>(upstream description)</sub>
   <sub>`Tutorial` · ★10+ · harshithsunku · `Py` · call site [`app.py`](https://github.com/harshithsunku/learn-jev-end-to-end/blob/HEAD/app.py), read 2026-09-24</sub>
 
@@ -212,7 +212,7 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 - **[midscene-jev-runner](https://github.com/KiritoKing/midscene-jev-runner)** — Community-maintained JEV runner integration for Midscene Test <sub>(upstream description)</sub>
   <sub>`Integration` · ★10+ · kiritoking · `TS` · call site [`src/constants.ts`](https://github.com/KiritoKing/midscene-jev-runner/blob/HEAD/src/constants.ts), read 2026-09-22</sub>
 
-- **[notjev](https://github.com/9pings/notjev)** — Super fast Jev like server, model agnostic, working with any OpenAI compatible endpoint <sub>(upstream description)</sub>
+- **[notjev](https://github.com/9pings/notjev)** — Super fast Jev like server, model agnostic, working with any OpenAI compatible endpoint <sub>(earlier upstream description)</sub>
   <sub>`Jev-like alternative` · ★10+ · 9pings · `JS` · cited file [`bin/notjev.js`](https://github.com/9pings/notjev/blob/HEAD/bin/notjev.js), read 2026-09-24 · ⚠ `not Jev itself`</sub>
 
 - **[OpenDecision](https://github.com/deepanwadhwa/OpenDecision)** — An open-source semantic decision engine running a local zero-shot model, with a FastAPI server proven wire-compatible with the official SDK.
@@ -719,6 +719,9 @@ Projects and plugins with code, 252 of them, whose only pattern is `overview` an
 - **[jev-experiments](https://github.com/dabit3/jev-experiments)** — Nader Dabit's collection of small Jev experiments, one per folder: a commit reviewer, a shell guard, a send guard, a log sentinel, instant search, reranking, a voice-turn detector and more.
   <sub>`Project` · ★100+ · dabit3 · `TS` · call site [`commit-sentry/src/jev.ts`](https://github.com/dabit3/jev-experiments/blob/HEAD/commit-sentry/src/jev.ts), read 2026-09-24 · ⚠ `no licence`</sub>
 
+- **[jev-foundation-models](https://github.com/peterfriese/system-one-foundation-models)** — A lightweight, native Swift 6 bridge integrating TypeSafe AI's Jev System One decision model into Apple's Foundation Models framework. <sub>(upstream description)</sub>
+  <sub>`Project` · ★100+ · peterfriese · `Swift` · call site [`Sources/JevFoundationModels/JevLanguageModel.swift`](https://github.com/peterfriese/system-one-foundation-models/blob/HEAD/Sources/JevFoundationModels/JevLanguageModel.swift), read 2026-09-22</sub>
+
 - **[jev-skill](https://github.com/wuyoscar/jev-skill)** — An agent skill plus CLI that validates all three primitives, requires explicit consent before a billed call, and forbids inventing output when simulating.
   <sub>`Plugin` · ★100+ · `Py` · `choice` · `score` · `noul` · call site [`skills/jev/scripts/jev.py`](https://github.com/wuyoscar/jev-skill/blob/HEAD/skills/jev/scripts/jev.py), read 2026-09-22</sub>
 
@@ -833,9 +836,6 @@ Projects and plugins with code, 252 of them, whose only pattern is `overview` an
 - **[jev-cli](https://github.com/shaharia-lab/jev-cli)** — Command-line tool for TypeSafe AI's Jev model. Ask yes/no, multiple-choice and rubric questions about any text and get calibrated probabilities back. Answers become exit codes for shells and CI, JSON for scripts, and MCP tools for AI agents. <sub>(upstream description)</sub>
   <sub>`Project` · ★10+ · shaharia-lab · `Rs` · call site [`crates/jev-cli/src/cli.rs`](https://github.com/shaharia-lab/jev-cli/blob/HEAD/crates/jev-cli/src/cli.rs), read 2026-09-24</sub>
 
-- **[jev-foundation-models](https://github.com/peterfriese/system-one-foundation-models)** — A lightweight, native Swift 6 bridge integrating TypeSafe AI's Jev System One decision model into Apple's Foundation Models framework. <sub>(upstream description)</sub>
-  <sub>`Project` · ★10+ · peterfriese · `Swift` · call site [`Sources/JevFoundationModels/JevLanguageModel.swift`](https://github.com/peterfriese/system-one-foundation-models/blob/HEAD/Sources/JevFoundationModels/JevLanguageModel.swift), read 2026-09-22</sub>
-
 - **[jev-judge-mcp](https://github.com/PyModel/jev-judge-mcp)** — Typed judgment tools for MCP agents. TypeSafe's Jev model as verify, screen, find, classify, rerank, decide, compare, extract, review, gate, and score: the model judges, policy decides auto, review, or escalate. <sub>(upstream description)</sub>
   <sub>`Plugin` · ★10+ · pymodel · `Py` · call site [`src/jev_judge_mcp/domain/questions.py`](https://github.com/PyModel/jev-judge-mcp/blob/HEAD/src/jev_judge_mcp/domain/questions.py), read 2026-09-24</sub>
 
@@ -919,6 +919,9 @@ Projects and plugins with code, 252 of them, whose only pattern is `overview` an
 
 - **[jevocks](https://github.com/unicodeveloper/jevocks)** — Everyday Stocks Status with Jev <sub>(upstream description)</sub>
   <sub>`Project` · ★10+ · unicodeveloper · `TS` · call site [`src/lib/classify.ts`](https://github.com/unicodeveloper/jevocks/blob/HEAD/src/lib/classify.ts), read 2026-09-22 · ⚠ `no licence`</sub>
+
+- **[jevplayspokemon](https://github.com/anxkhn/JevPlaysPokemon)** — Jev plays Generation 3 Pokémon via Showdown and a real FireRed ROM. <sub>(upstream description)</sub>
+  <sub>`Project` · ★10+ · anxkhn · `TS` · call site [`jev.js`](https://github.com/anxkhn/JevPlaysPokemon/blob/HEAD/jev.js), read 2026-09-22</sub>
 
 - **[jevthoven](https://github.com/cocktailpeanut/jevthoven)** — AI Music (MIDI) generator powered by Jev <sub>(upstream description)</sub>
   <sub>`Project` · ★10+ · cocktailpeanut · `TS` · call site [`app/scripts/live-smoke.mjs`](https://github.com/cocktailpeanut/jevthoven/blob/HEAD/app/scripts/live-smoke.mjs), read 2026-09-22</sub>
@@ -1016,7 +1019,7 @@ Projects and plugins with code, 252 of them, whose only pattern is `overview` an
 - **[bes-kelime-jev](https://github.com/mahmut-gundogdu/bes-kelime-jev)** — Ne yazarsanız yazın, beş kelimeden biriyle cevap veren sohbet botu. Kelimeyi TypeSafe AI'ın Jev evaluation modeli seçer. <sub>(upstream description)</sub>
   <sub>`Project` · mahmut-gundogdu · `TS` · call site [`src/jev.ts`](https://github.com/mahmut-gundogdu/bes-kelime-jev/blob/HEAD/src/jev.ts), read 2026-09-22</sub>
 
-- **[btc-jev-signal](https://github.com/WebGrga/btc-jev-signal)** — Experimental multi-horizon BTC signal generator using TypeSafe Jev probabilities and Binance market data. <sub>(upstream description)</sub>
+- **[btc-jev-signal](https://github.com/WebGrga/btc-jev-signal)** — Experimental multi-horizon BTC signal generator using TypeSafe Jev probabilities and Binance market data. <sub>(earlier upstream description)</sub>
   <sub>`Project` · webgrga · `TS` · call site [`src/experiment-jev.ts`](https://github.com/WebGrga/btc-jev-signal/blob/HEAD/src/experiment-jev.ts), read 2026-09-22 · ⚠ `no licence`</sub>
 
 - **[cairn-jev-lab](https://github.com/Cairn-ink/cairn-jev-lab)** — Test what your AI should remember. An experimental, source-aware memory admission evaluator powered by Jev, with editable cases and inspectable results. <sub>(upstream description)</sub>
@@ -1253,9 +1256,6 @@ Projects and plugins with code, 252 of them, whose only pattern is `overview` an
 - **[jevopt](https://github.com/Ramneet-Singh/jevopt)** — Making intelligent compiler optimisation decisions with Jev <sub>(upstream description)</sub>
   <sub>`Project` · ramneet-singh · `Py` · call site [`src/jevopt/cli.py`](https://github.com/Ramneet-Singh/jevopt/blob/HEAD/src/jevopt/cli.py), read 2026-09-22</sub>
 
-- **[jevplayspokemon](https://github.com/anxkhn/JevPlaysPokemon)** — Jev plays Generation 3 Pokémon via Showdown and a real FireRed ROM. <sub>(upstream description)</sub>
-  <sub>`Project` · anxkhn · `TS` · call site [`jev.js`](https://github.com/anxkhn/JevPlaysPokemon/blob/HEAD/jev.js), read 2026-09-22</sub>
-
 - **[jevscope](https://github.com/jeiel85/jevscope)** — Local-first visual decision debugger and regression testbench for TypeSafe AI Jev <sub>(upstream description)</sub>
   <sub>`Project` · jeiel85 · `TS` · call site [`packages/provider-typesafe/src/index.ts`](https://github.com/jeiel85/jevscope/blob/HEAD/packages/provider-typesafe/src/index.ts), read 2026-09-24</sub>
 
@@ -1346,7 +1346,7 @@ Projects and plugins with code, 252 of them, whose only pattern is `overview` an
 - **[second-thought](https://github.com/KNambiarDJsc/second-thought)** — Learning infrastructure for typed probabilistic decisions from System One models (Laya, and typed-decision providers you bring yourself). <sub>(upstream description)</sub>
   <sub>`Project` · knambiardjsc · `Py` · call site [`src/second_thought/adapters/jev.py`](https://github.com/KNambiarDJsc/second-thought/blob/HEAD/src/second_thought/adapters/jev.py), read 2026-09-24</sub>
 
-- **[secondlayer](https://github.com/ryanwaits/secondlayer)** — Decoded Stacks data in your own database. Self-hosted. <sub>(upstream description)</sub>
+- **[secondlayer](https://github.com/ryanwaits/secondlayer)** — Decoded Stacks data in your own database. Self-hosted. <sub>(earlier upstream description)</sub>
   <sub>`Project` · ryanwaits · `TS` · call site [`scripts/ops/jev-fault-triage.ts`](https://github.com/ryanwaits/secondlayer/blob/HEAD/scripts/ops/jev-fault-triage.ts), read 2026-09-22</sub>
 
 - **[should-ai-kill-us-all](https://github.com/hellogumbo/should-ai-kill-us-all)** — We ask Jev, TypeSafe AI's System One model, whether AI should kill us all. Every ten minutes. Using the actual headlines. <sub>(upstream description)</sub>

@@ -417,7 +417,7 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
   <sub>`开源项目` · lgy1027 · `Py` · 调用点 [`jevshield/client.py`](https://github.com/lgy1027/jevshield/blob/HEAD/jevshield/client.py)，2026-09-22 阅读</sub>
 
 - **[judging-with-typesafe](https://github.com/carlsonchik/judging-with-typesafe)** — 给 Letta 智能体的技能：通过 System One 按给定标准做判断（俄语）。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
-  <sub>`开源项目` · carlsonchik · `Py` · 调用点 [`skills/judging-with-typesafe/scripts/typesafe.py`](https://github.com/carlsonchik/judging-with-typesafe/blob/HEAD/skills/judging-with-typesafe/scripts/typesafe.py)，2026-09-22 阅读 · ⚠ `无许可证`</sub>
+  <sub>`开源项目` · carlsonchik · `Py` · 调用点 [`skills/judging-with-typesafe/scripts/typesafe.py`](https://github.com/carlsonchik/judging-with-typesafe/blob/HEAD/skills/judging-with-typesafe/scripts/typesafe.py)，2026-09-22 阅读</sub>
 
 - **[leanest](https://github.com/baronunread/leanest)** — 本地优先的测试选择器：用 Jev 判断哪些测试受某次变更影响。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · baronunread · `TS` · 调用点 [`packages/judge/src/providers/jev.ts`](https://github.com/baronunread/leanest/blob/HEAD/packages/judge/src/providers/jev.ts)，2026-09-22 阅读</sub>

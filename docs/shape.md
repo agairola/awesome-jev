@@ -4,7 +4,7 @@
 
 <sub>[awesome-jev](../README.md) · [中文](shape.zh-CN.md)</sub>
 
-Counts that describe this catalogue as a dataset, regenerated from `catalog.json` whenever it changes; the newest link check behind them is dated **2026-10-11**. They describe what the catalogue holds, which is what reached it through the sibling directories, this repository's discovery and its contributors, not the ecosystem at large. A star band is a popularity signal, not a quality verdict, and nothing here was run or reproduced by this repository. `python3 scripts/counts.py` prints the same numbers as text; the headline figures are on [the status page](status.md).
+Counts that describe this catalogue as a dataset, regenerated from `catalog.json` whenever it changes; the newest link check behind them is dated **2026-10-14**. They describe what the catalogue holds, which is what reached it through the sibling directories, this repository's discovery and its contributors, not the ecosystem at large. A star band is a popularity signal, not a quality verdict, and nothing here was run or reproduced by this repository. `python3 scripts/counts.py` prints the same numbers as text; the headline figures are on [the status page](status.md).
 
 ## Evidence by decision pattern
 
@@ -116,8 +116,8 @@ Rows of each kind per star band, from GitHub's count at the last weekly refresh;
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Official docs (`official-docs`) | 31 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | ★1k+ |
 | Integration (`integration`) | 34 | 24 | 8 | 6 | 1 | 3 | 5 | 1 | ★10+ |
-| Project (`project`) | 657 | 654 | 364 | 170 | 86 | 18 | 14 | 2 | under 10 |
-| Plugin (`plugin`) | 238 | 238 | 135 | 71 | 27 | 4 | 1 | 0 | under 10 |
+| Project (`project`) | 657 | 654 | 363 | 170 | 87 | 18 | 14 | 2 | under 10 |
+| Plugin (`plugin`) | 238 | 238 | 132 | 74 | 27 | 4 | 1 | 0 | under 10 |
 | SDK (`sdk`) | 94 | 93 | 72 | 16 | 4 | 0 | 1 | 0 | under 10 |
 | Snippet (`snippet`) | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — |
 | Tutorial (`tutorial`) | 9 | 6 | 2 | 2 | 0 | 2 | 0 | 0 | ★10+ |
@@ -125,7 +125,7 @@ Rows of each kind per star band, from GitHub's count at the last weekly refresh;
 | Video (`video`) | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — |
 | Benchmark (`benchmark`) | 72 | 69 | 51 | 11 | 4 | 1 | 1 | 1 | under 10 |
 | Discussion (`discussion`) | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — |
-| Jev-like alternative (`alternative`) | 59 | 58 | 11 | 26 | 13 | 6 | 2 | 0 | ★10+ |
+| Jev-like alternative (`alternative`) | 59 | 58 | 11 | 25 | 14 | 6 | 2 | 0 | ★10+ |
 
 ## Languages by decision pattern
 
@@ -175,7 +175,13 @@ Rows per pattern recording each of the 6 most recorded languages; the rest share
 
 ## Over time
 
-Collecting since 2026-09-30: 2 snapshots in `history/` so far, one per weekly refresh. A table of how the counts moved appears here from the third.
+The catalogue's counts at each weekly refresh, from the snapshots in `history/` (generated data, never a source): 3 since 2026-09-30, the newest 3 shown. A count is what was catalogued on that day, not how the ecosystem grew; a dash is a count that snapshot did not record.
+
+| Snapshot | Entries | With code | Rows citing a call site | Independent reports | Negative results | Alternatives | No licence declared |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-09-30 | 1210 | 1182 | 1076 | 71 | 5 | 58 | 198 |
+| 2026-10-08 | 1214 | 1185 | 1078 | 71 | 5 | 59 | 197 |
+| 2026-10-14 | 1217 | 1186 | 1079 | 72 | 5 | 59 | 196 |
 
 ---
 

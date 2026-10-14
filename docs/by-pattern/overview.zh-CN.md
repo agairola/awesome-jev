@@ -128,6 +128,9 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 - **[jevk5](https://github.com/allebee/jevk5)** — JevK5：TypeSafe Jev 的开放权重替代品，一次前向传播即给出带概率的类型化决策，权重采用 Apache-2.0。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`Jev 替代实现` · ★100+ · allebee · `Py` · 引用文件 [`jevk5/prompt.py`](https://github.com/allebee/jevk5/blob/HEAD/jevk5/prompt.py)，2026-09-24 阅读 · ⚠ `并非 Jev 本身`</sub>
 
+- **[laya-server](https://github.com/1Panel-dev/laya-server)** — 为 Laya 结构化决策模型提供的自托管 API 与网页界面，兼容 TypeSafe Jev 的 API 格式。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
+  <sub>`Jev 替代实现` · ★100+ · 1panel-dev · `TS` · 引用文件 [`backend/server/main.py`](https://github.com/1Panel-dev/laya-server/blob/HEAD/backend/server/main.py)，2026-09-24 阅读 · ⚠ `并非 Jev 本身`</sub>
+
 - **[localjev](https://github.com/githubnext/localjev)** — GitHub Next 用 TypeScript 写的本地 Jev 兼容 POST /v1/systemone 接口：在打过补丁的 vLLM 上，通过一步式结构化读取从 DiffusionGemma 模型得到概率。它重新实现的是协议，而不是模型。 <sub>(机翻)</sub>
   <sub>`Jev 替代实现` · ★100+ · githubnext · `TS` · 引用文件 [`src/server.ts`](https://github.com/githubnext/localjev/blob/HEAD/src/server.ts)，2026-09-24 阅读 · ⚠ `并非 Jev 本身`</sub>
 
@@ -200,9 +203,6 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 - **[jevper](https://github.com/zhulinchng/jevper)** — 形似 Jev（TypeSafe System One）的分类封装，基于类 OpenAI 客户端：给出概率与置信度，而不是文本。 <sub>(机翻)</sub>
   <sub>`Jev 替代实现` · ★10+ · zhulinchng · `Py` · 引用文件 [`src/jevper/types.py`](https://github.com/zhulinchng/jevper/blob/HEAD/src/jevper/types.py)，2026-09-24 阅读 · ⚠ `并非 Jev 本身`</sub>
 
-- **[laya-server](https://github.com/1Panel-dev/laya-server)** — 为 Laya 结构化决策模型提供的自托管 API 与网页界面，兼容 TypeSafe Jev 的 API 格式。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
-  <sub>`Jev 替代实现` · ★10+ · 1panel-dev · `TS` · 引用文件 [`backend/server/main.py`](https://github.com/1Panel-dev/laya-server/blob/HEAD/backend/server/main.py)，2026-09-24 阅读 · ⚠ `并非 Jev 本身`</sub>
-
 - **[learn-jev-end-to-end](https://github.com/harshithsunku/learn-jev-end-to-end)** — 端到端学习 Jev 的免费实践课程：用“快脑”（Jev）加“慢脑”（LLM）构建 13 个智能体用例，只需一个 OpenRouter key。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`教程` · ★10+ · harshithsunku · `Py` · 调用点 [`app.py`](https://github.com/harshithsunku/learn-jev-end-to-end/blob/HEAD/app.py)，2026-09-24 阅读</sub>
 
@@ -212,7 +212,7 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 - **[midscene-jev-runner](https://github.com/KiritoKing/midscene-jev-runner)** — 社区维护的 Midscene Test JEV 运行器集成。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`平台集成` · ★10+ · kiritoking · `TS` · 调用点 [`src/constants.ts`](https://github.com/KiritoKing/midscene-jev-runner/blob/HEAD/src/constants.ts)，2026-09-22 阅读</sub>
 
-- **[notjev](https://github.com/9pings/notjev)** — 超快的类 Jev 服务器，与模型无关，可对接任何 OpenAI 兼容端点。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
+- **[notjev](https://github.com/9pings/notjev)** — 超快的类 Jev 服务器，与模型无关，可对接任何 OpenAI 兼容端点。 <sub>(项目旧自述)</sub> <sub>(机翻)</sub>
   <sub>`Jev 替代实现` · ★10+ · 9pings · `JS` · 引用文件 [`bin/notjev.js`](https://github.com/9pings/notjev/blob/HEAD/bin/notjev.js)，2026-09-24 阅读 · ⚠ `并非 Jev 本身`</sub>
 
 - **[OpenDecision](https://github.com/deepanwadhwa/OpenDecision)** — 一个开源语义决策引擎，本地跑零样本模型，其 FastAPI 服务已验证与官方 SDK 协议兼容。
@@ -719,6 +719,9 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 - **[jev-experiments](https://github.com/dabit3/jev-experiments)** — Nader Dabit 的一组 Jev 小实验，每个目录一个：提交审查、shell 防护、发送防护、日志哨兵、即时搜索、重排、语音轮次检测等。 <sub>(机翻)</sub>
   <sub>`开源项目` · ★100+ · dabit3 · `TS` · 调用点 [`commit-sentry/src/jev.ts`](https://github.com/dabit3/jev-experiments/blob/HEAD/commit-sentry/src/jev.ts)，2026-09-24 阅读 · ⚠ `无许可证`</sub>
 
+- **[jev-foundation-models](https://github.com/peterfriese/system-one-foundation-models)** — 轻量的原生 Swift 6 桥接，把 Jev 接入 Apple 的 Foundation Models。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
+  <sub>`开源项目` · ★100+ · peterfriese · `Swift` · 调用点 [`Sources/JevFoundationModels/JevLanguageModel.swift`](https://github.com/peterfriese/system-one-foundation-models/blob/HEAD/Sources/JevFoundationModels/JevLanguageModel.swift)，2026-09-22 阅读</sub>
+
 - **[jev-skill](https://github.com/wuyoscar/jev-skill)** — 一个 agent 技能加 CLI：校验三种原语、在产生计费调用前要求明确同意、并禁止在模拟时编造输出。
   <sub>`插件` · ★100+ · `Py` · `choice` · `score` · `noul` · 调用点 [`skills/jev/scripts/jev.py`](https://github.com/wuyoscar/jev-skill/blob/HEAD/skills/jev/scripts/jev.py)，2026-09-22 阅读</sub>
 
@@ -833,9 +836,6 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 - **[jev-cli](https://github.com/shaharia-lab/jev-cli)** — TypeSafe AI Jev 模型的命令行工具：对任意文本提出是非题、多选题和评分题，并得到校准后的答案。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ★10+ · shaharia-lab · `Rs` · 调用点 [`crates/jev-cli/src/cli.rs`](https://github.com/shaharia-lab/jev-cli/blob/HEAD/crates/jev-cli/src/cli.rs)，2026-09-24 阅读</sub>
 
-- **[jev-foundation-models](https://github.com/peterfriese/system-one-foundation-models)** — 轻量的原生 Swift 6 桥接，把 Jev 接入 Apple 的 Foundation Models。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
-  <sub>`开源项目` · ★10+ · peterfriese · `Swift` · 调用点 [`Sources/JevFoundationModels/JevLanguageModel.swift`](https://github.com/peterfriese/system-one-foundation-models/blob/HEAD/Sources/JevFoundationModels/JevLanguageModel.swift)，2026-09-22 阅读</sub>
-
 - **[jev-judge-mcp](https://github.com/PyModel/jev-judge-mcp)** — 面向 MCP 智能体的带类型判断工具：把 TypeSafe Jev 模型包装成 verify、screen、find、classify、rerank、decide、compare 等工具。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`插件` · ★10+ · pymodel · `Py` · 调用点 [`src/jev_judge_mcp/domain/questions.py`](https://github.com/PyModel/jev-judge-mcp/blob/HEAD/src/jev_judge_mcp/domain/questions.py)，2026-09-24 阅读</sub>
 
@@ -919,6 +919,9 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 
 - **[jevocks](https://github.com/unicodeveloper/jevocks)** — 用 Jev 看每日股票状态。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ★10+ · unicodeveloper · `TS` · 调用点 [`src/lib/classify.ts`](https://github.com/unicodeveloper/jevocks/blob/HEAD/src/lib/classify.ts)，2026-09-22 阅读 · ⚠ `无许可证`</sub>
+
+- **[jevplayspokemon](https://github.com/anxkhn/JevPlaysPokemon)** — 让 Jev 通过 Showdown 和真实 ROM 玩第三世代宝可梦。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
+  <sub>`开源项目` · ★10+ · anxkhn · `TS` · 调用点 [`jev.js`](https://github.com/anxkhn/JevPlaysPokemon/blob/HEAD/jev.js)，2026-09-22 阅读</sub>
 
 - **[jevthoven](https://github.com/cocktailpeanut/jevthoven)** — 由 Jev 驱动的 AI 音乐（MIDI）生成器。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ★10+ · cocktailpeanut · `TS` · 调用点 [`app/scripts/live-smoke.mjs`](https://github.com/cocktailpeanut/jevthoven/blob/HEAD/app/scripts/live-smoke.mjs)，2026-09-22 阅读</sub>
@@ -1016,7 +1019,7 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 - **[bes-kelime-jev](https://github.com/mahmut-gundogdu/bes-kelime-jev)** — 无论你写什么，都只用五个词之一回答的聊天机器人（土耳其语）。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · mahmut-gundogdu · `TS` · 调用点 [`src/jev.ts`](https://github.com/mahmut-gundogdu/bes-kelime-jev/blob/HEAD/src/jev.ts)，2026-09-22 阅读</sub>
 
-- **[btc-jev-signal](https://github.com/WebGrga/btc-jev-signal)** — 实验性的多周期 BTC 信号生成器，使用 Jev 概率与交易所数据。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
+- **[btc-jev-signal](https://github.com/WebGrga/btc-jev-signal)** — 实验性的多周期 BTC 信号生成器，使用 Jev 概率与交易所数据。 <sub>(项目旧自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · webgrga · `TS` · 调用点 [`src/experiment-jev.ts`](https://github.com/WebGrga/btc-jev-signal/blob/HEAD/src/experiment-jev.ts)，2026-09-22 阅读 · ⚠ `无许可证`</sub>
 
 - **[cairn-jev-lab](https://github.com/Cairn-ink/cairn-jev-lab)** — 测试你的 AI 应该记住什么：实验性的、感知来源的记忆准入评估器。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
@@ -1253,9 +1256,6 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 - **[jevopt](https://github.com/Ramneet-Singh/jevopt)** — 用 Jev 做智能的编译器优化决策。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ramneet-singh · `Py` · 调用点 [`src/jevopt/cli.py`](https://github.com/Ramneet-Singh/jevopt/blob/HEAD/src/jevopt/cli.py)，2026-09-22 阅读</sub>
 
-- **[jevplayspokemon](https://github.com/anxkhn/JevPlaysPokemon)** — 让 Jev 通过 Showdown 和真实 ROM 玩第三世代宝可梦。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
-  <sub>`开源项目` · anxkhn · `TS` · 调用点 [`jev.js`](https://github.com/anxkhn/JevPlaysPokemon/blob/HEAD/jev.js)，2026-09-22 阅读</sub>
-
 - **[jevscope](https://github.com/jeiel85/jevscope)** — 本地优先的可视化决策调试器与回归测试台，面向 TypeSafe AI Jev。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · jeiel85 · `TS` · 调用点 [`packages/provider-typesafe/src/index.ts`](https://github.com/jeiel85/jevscope/blob/HEAD/packages/provider-typesafe/src/index.ts)，2026-09-24 阅读</sub>
 
@@ -1346,7 +1346,7 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 - **[second-thought](https://github.com/KNambiarDJsc/second-thought)** — 从 System One 模型（Laya，以及你自带的类型化决策服务）学习带类型概率决策的基础设施。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · knambiardjsc · `Py` · 调用点 [`src/second_thought/adapters/jev.py`](https://github.com/KNambiarDJsc/second-thought/blob/HEAD/src/second_thought/adapters/jev.py)，2026-09-24 阅读</sub>
 
-- **[secondlayer](https://github.com/ryanwaits/secondlayer)** — 把解码后的链上数据放进你自己的数据库，可自托管。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
+- **[secondlayer](https://github.com/ryanwaits/secondlayer)** — 把解码后的链上数据放进你自己的数据库，可自托管。 <sub>(项目旧自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · ryanwaits · `TS` · 调用点 [`scripts/ops/jev-fault-triage.ts`](https://github.com/ryanwaits/secondlayer/blob/HEAD/scripts/ops/jev-fault-triage.ts)，2026-09-22 阅读</sub>
 
 - **[should-ai-kill-us-all](https://github.com/hellogumbo/should-ai-kill-us-all)** — 每十分钟问一次 Jev：AI 是否应该毁灭人类。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
