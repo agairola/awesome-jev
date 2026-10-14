@@ -12,11 +12,11 @@ What the catalogue records about the rows filed under each pattern: reports coun
 
 | Pattern | Rows | Official documentation | Call site | Wire shape | Example only | Independent reports | Negative results | No file cited |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Tool selection](by-pattern/tool-selection.md) | 230 | 3 | 222 | 4 | 0 | 12 | 1 | 4 |
+| [Tool selection](by-pattern/tool-selection.md) | 231 | 3 | 223 | 4 | 0 | 12 | 1 | 4 |
 | [Intent routing](by-pattern/intent-routing.md) | 37 | 3 | 26 | 0 | 0 | 2 | 0 | 11 |
 | [Context compaction](by-pattern/context-compaction.md) | 35 | 0 | 35 | 0 | 0 | 2 | 2 | 0 |
 | [Safety gating](by-pattern/safety-gating.md) | 140 | 2 | 134 | 2 | 0 | 10 | 0 | 4 |
-| [Output validation](by-pattern/output-validation.md) | 134 | 2 | 129 | 1 | 0 | 11 | 0 | 4 |
+| [Output validation](by-pattern/output-validation.md) | 135 | 2 | 130 | 1 | 0 | 11 | 0 | 4 |
 | [Retry control](by-pattern/retry-control.md) | 7 | 0 | 6 | 1 | 0 | 0 | 0 | 0 |
 | [Human escalation](by-pattern/human-escalation.md) | 69 | 7 | 54 | 5 | 0 | 10 | 0 | 10 |
 | [Model routing](by-pattern/model-routing.md) | 45 | 2 | 38 | 1 | 0 | 0 | 1 | 6 |
@@ -40,7 +40,7 @@ Rows recording each language (`languages`; a row may record several). 31 rows re
 | Language | Rows |
 | --- | --- |
 | `python` | 459 |
-| `typescript` | 404 |
+| `typescript` | 405 |
 | `javascript` | 152 |
 | `rust` | 52 |
 | `go` | 42 |
@@ -63,7 +63,7 @@ Rows recording each language (`languages`; a row may record several). 31 rows re
 
 | Group | Rows |
 | --- | --- |
-| `typesafe-api` and nothing else | 1092 |
+| `typesafe-api` and nothing else | 1093 |
 | At least one value another surface in [the compatibility table](compatibility.md) stands for (a gateway, SDK or framework), and not `self-hosted` | 36 |
 | Besides `typesafe-api`, only values no compatibility surface stands for (a host, tool or framework the example runs in, or a route that table does not describe), and not `self-hosted` | 29 |
 | `self-hosted`, whatever else is recorded | 40 |
@@ -73,7 +73,7 @@ Every value rows record, with the compatibility surfaces that stand for it:
 
 | Value | Compatibility surface | Rows |
 | --- | --- | --- |
-| `typesafe-api` | `typesafe-native` | 1120 |
+| `typesafe-api` | `typesafe-native` | 1121 |
 | `self-hosted` | — | 40 |
 | `vercel-ai-gateway` | `vercel-eval`, `vercel-compat` | 15 |
 | `claude-code` | — | 9 |
@@ -116,7 +116,7 @@ Rows of each kind per star band, from GitHub's count at the last weekly refresh;
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Official docs (`official-docs`) | 31 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | ★1k+ |
 | Integration (`integration`) | 34 | 24 | 8 | 6 | 1 | 3 | 5 | 1 | ★10+ |
-| Project (`project`) | 656 | 653 | 363 | 170 | 86 | 18 | 14 | 2 | under 10 |
+| Project (`project`) | 657 | 654 | 364 | 170 | 86 | 18 | 14 | 2 | under 10 |
 | Plugin (`plugin`) | 238 | 238 | 135 | 71 | 27 | 4 | 1 | 0 | under 10 |
 | SDK (`sdk`) | 94 | 93 | 72 | 16 | 4 | 0 | 1 | 0 | under 10 |
 | Snippet (`snippet`) | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — |
@@ -133,11 +133,11 @@ Rows per pattern recording each of the 6 most recorded languages; the rest share
 
 | Pattern | `python` | `typescript` | `javascript` | `rust` | `go` | `swift` | Other languages |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Tool selection](by-pattern/tool-selection.md) | 89 | 83 | 45 | 4 | 4 | 5 | 1 |
+| [Tool selection](by-pattern/tool-selection.md) | 89 | 84 | 45 | 4 | 4 | 5 | 1 |
 | [Intent routing](by-pattern/intent-routing.md) | 18 | 14 | 3 | 0 | 1 | 0 | 1 |
 | [Context compaction](by-pattern/context-compaction.md) | 10 | 21 | 3 | 1 | 0 | 0 | 0 |
 | [Safety gating](by-pattern/safety-gating.md) | 46 | 62 | 20 | 5 | 4 | 0 | 4 |
-| [Output validation](by-pattern/output-validation.md) | 45 | 52 | 19 | 8 | 3 | 1 | 4 |
+| [Output validation](by-pattern/output-validation.md) | 45 | 53 | 19 | 8 | 3 | 1 | 4 |
 | [Retry control](by-pattern/retry-control.md) | 2 | 2 | 1 | 0 | 0 | 1 | 1 |
 | [Human escalation](by-pattern/human-escalation.md) | 41 | 22 | 0 | 1 | 0 | 0 | 2 |
 | [Model routing](by-pattern/model-routing.md) | 16 | 19 | 9 | 0 | 0 | 1 | 0 |
@@ -154,7 +154,7 @@ Rows per pattern recording each of the 6 most recorded languages; the rest share
 
 ## Patterns filed together
 
-288 rows are filed under more than one pattern. The 10 pairs most often filed on the same row:
+289 rows are filed under more than one pattern. The 10 pairs most often filed on the same row:
 
 | Patterns | Rows |
 | --- | --- |
@@ -165,13 +165,13 @@ Rows per pattern recording each of the 6 most recorded languages; the rest share
 | [Safety gating](by-pattern/safety-gating.md) + [Classification](by-pattern/classification.md) | 23 |
 | [Output validation](by-pattern/output-validation.md) + [Content scoring](by-pattern/content-scoring.md) | 23 |
 | [Safety gating](by-pattern/safety-gating.md) + [Content scoring](by-pattern/content-scoring.md) | 22 |
-| [Tool selection](by-pattern/tool-selection.md) + [Output validation](by-pattern/output-validation.md) | 19 |
+| [Tool selection](by-pattern/tool-selection.md) + [Output validation](by-pattern/output-validation.md) | 20 |
 | [Tool selection](by-pattern/tool-selection.md) + [Content scoring](by-pattern/content-scoring.md) | 17 |
 | [Safety gating](by-pattern/safety-gating.md) + [Human escalation](by-pattern/human-escalation.md) | 17 |
 
 ## Authors
 
-1098 rows name an author; they name 991 different ones, compared by display name without regard to case. 916 of them have one row here, 60 two, and 15 three or more; the most any one author has is 11. No author is named on this page: it shows how concentrated the catalogue is, not who contributes to it.
+1099 rows name an author; they name 992 different ones, compared by display name without regard to case. 917 of them have one row here, 60 two, and 15 three or more; the most any one author has is 11. No author is named on this page: it shows how concentrated the catalogue is, not who contributes to it.
 
 ## Over time
 

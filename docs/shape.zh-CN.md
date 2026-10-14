@@ -14,11 +14,11 @@
 
 | 模式 | 行数 | 官方文档 | 调用点 | 接口形态 | 仅示例 | 独立报告 | 负面结果 | 未引用文件 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [工具选择](by-pattern/tool-selection.zh-CN.md) | 230 | 3 | 222 | 4 | 0 | 12 | 1 | 4 |
+| [工具选择](by-pattern/tool-selection.zh-CN.md) | 231 | 3 | 223 | 4 | 0 | 12 | 1 | 4 |
 | [意图路由](by-pattern/intent-routing.zh-CN.md) | 37 | 3 | 26 | 0 | 0 | 2 | 0 | 11 |
 | [上下文压缩](by-pattern/context-compaction.zh-CN.md) | 35 | 0 | 35 | 0 | 0 | 2 | 2 | 0 |
 | [安全闸门](by-pattern/safety-gating.zh-CN.md) | 140 | 2 | 134 | 2 | 0 | 10 | 0 | 4 |
-| [输出校验](by-pattern/output-validation.zh-CN.md) | 134 | 2 | 129 | 1 | 0 | 11 | 0 | 4 |
+| [输出校验](by-pattern/output-validation.zh-CN.md) | 135 | 2 | 130 | 1 | 0 | 11 | 0 | 4 |
 | [重试控制](by-pattern/retry-control.zh-CN.md) | 7 | 0 | 6 | 1 | 0 | 0 | 0 | 0 |
 | [人工升级](by-pattern/human-escalation.zh-CN.md) | 69 | 7 | 54 | 5 | 0 | 10 | 0 | 10 |
 | [模型路由](by-pattern/model-routing.zh-CN.md) | 45 | 2 | 38 | 1 | 0 | 0 | 1 | 6 |
@@ -42,7 +42,7 @@
 | 语言 | 行数 |
 | --- | --- |
 | `python` | 459 |
-| `typescript` | 404 |
+| `typescript` | 405 |
 | `javascript` | 152 |
 | `rust` | 52 |
 | `go` | 42 |
@@ -65,7 +65,7 @@
 
 | 分组 | 行数 |
 | --- | --- |
-| 只有 `typesafe-api` | 1092 |
+| 只有 `typesafe-api` | 1093 |
 | 至少有一个值对应[兼容性表](compatibility.md)中的其他接入面（网关、SDK 或框架），且不含 `self-hosted` | 36 |
 | 除 `typesafe-api` 外只记录没有任何兼容性接入面对应的值（示例运行所在的主机、工具或框架，或该表未描述的路径），且不含 `self-hosted` | 29 |
 | 含 `self-hosted`，无论还记录了什么 | 40 |
@@ -75,7 +75,7 @@
 
 | 值 | 兼容性接入面 | 行数 |
 | --- | --- | --- |
-| `typesafe-api` | `typesafe-native` | 1120 |
+| `typesafe-api` | `typesafe-native` | 1121 |
 | `self-hosted` | — | 40 |
 | `vercel-ai-gateway` | `vercel-eval`, `vercel-compat` | 15 |
 | `claude-code` | — | 9 |
@@ -118,7 +118,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 官方文档 (`official-docs`) | 31 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | ★1k+ |
 | 平台集成 (`integration`) | 34 | 24 | 8 | 6 | 1 | 3 | 5 | 1 | ★10+ |
-| 开源项目 (`project`) | 656 | 653 | 363 | 170 | 86 | 18 | 14 | 2 | 不足 10 |
+| 开源项目 (`project`) | 657 | 654 | 364 | 170 | 86 | 18 | 14 | 2 | 不足 10 |
 | 插件 (`plugin`) | 238 | 238 | 135 | 71 | 27 | 4 | 1 | 0 | 不足 10 |
 | SDK (`sdk`) | 94 | 93 | 72 | 16 | 4 | 0 | 1 | 0 | 不足 10 |
 | 代码片段 (`snippet`) | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — |
@@ -135,11 +135,11 @@
 
 | 模式 | `python` | `typescript` | `javascript` | `rust` | `go` | `swift` | 其他语言 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [工具选择](by-pattern/tool-selection.zh-CN.md) | 89 | 83 | 45 | 4 | 4 | 5 | 1 |
+| [工具选择](by-pattern/tool-selection.zh-CN.md) | 89 | 84 | 45 | 4 | 4 | 5 | 1 |
 | [意图路由](by-pattern/intent-routing.zh-CN.md) | 18 | 14 | 3 | 0 | 1 | 0 | 1 |
 | [上下文压缩](by-pattern/context-compaction.zh-CN.md) | 10 | 21 | 3 | 1 | 0 | 0 | 0 |
 | [安全闸门](by-pattern/safety-gating.zh-CN.md) | 46 | 62 | 20 | 5 | 4 | 0 | 4 |
-| [输出校验](by-pattern/output-validation.zh-CN.md) | 45 | 52 | 19 | 8 | 3 | 1 | 4 |
+| [输出校验](by-pattern/output-validation.zh-CN.md) | 45 | 53 | 19 | 8 | 3 | 1 | 4 |
 | [重试控制](by-pattern/retry-control.zh-CN.md) | 2 | 2 | 1 | 0 | 0 | 1 | 1 |
 | [人工升级](by-pattern/human-escalation.zh-CN.md) | 41 | 22 | 0 | 1 | 0 | 0 | 2 |
 | [模型路由](by-pattern/model-routing.zh-CN.md) | 16 | 19 | 9 | 0 | 0 | 1 | 0 |
@@ -156,7 +156,7 @@
 
 ## 一起归档的模式
 
-有 288 行归入了不止一个模式。最常出现在同一行上的 10 对模式：
+有 289 行归入了不止一个模式。最常出现在同一行上的 10 对模式：
 
 | 模式 | 行数 |
 | --- | --- |
@@ -167,13 +167,13 @@
 | [安全闸门](by-pattern/safety-gating.zh-CN.md) + [分类](by-pattern/classification.zh-CN.md) | 23 |
 | [输出校验](by-pattern/output-validation.zh-CN.md) + [内容评分](by-pattern/content-scoring.zh-CN.md) | 23 |
 | [安全闸门](by-pattern/safety-gating.zh-CN.md) + [内容评分](by-pattern/content-scoring.zh-CN.md) | 22 |
-| [工具选择](by-pattern/tool-selection.zh-CN.md) + [输出校验](by-pattern/output-validation.zh-CN.md) | 19 |
+| [工具选择](by-pattern/tool-selection.zh-CN.md) + [输出校验](by-pattern/output-validation.zh-CN.md) | 20 |
 | [工具选择](by-pattern/tool-selection.zh-CN.md) + [内容评分](by-pattern/content-scoring.zh-CN.md) | 17 |
 | [安全闸门](by-pattern/safety-gating.zh-CN.md) + [人工升级](by-pattern/human-escalation.zh-CN.md) | 17 |
 
 ## 作者
 
-有 1098 行写明了作者，共 991 位不同的作者（按显示名比较，不区分大小写）。其中 916 位在本目录只有一行，60 位有两行，15 位有三行或更多；单个作者最多有 11 行。本页不列出任何作者的名字：它显示的是目录的集中程度，而不是谁在贡献。
+有 1099 行写明了作者，共 992 位不同的作者（按显示名比较，不区分大小写）。其中 917 位在本目录只有一行，60 位有两行，15 位有三行或更多；单个作者最多有 11 行。本页不列出任何作者的名字：它显示的是目录的集中程度，而不是谁在贡献。
 
 ## 随时间的变化
 

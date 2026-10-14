@@ -4,11 +4,11 @@
 
 _Which tool or action the agent should call next._
 
-Every catalogued example of this decision — 230 of them. The same rows, with caveats, are in [the index](../../README.md#tool-selection); [the site](https://kydlikebtc.github.io/awesome-jev/?p=tool-selection&lang=en) can filter them further by language, primitive and kind.
+Every catalogued example of this decision — 231 of them. The same rows, with caveats, are in [the index](../../README.md#tool-selection); [the site](https://kydlikebtc.github.io/awesome-jev/?p=tool-selection&lang=en) can filter them further by language, primitive and kind.
 
 Design notes for this decision are in [docs/patterns.md](../patterns.md#tool-selection): what it decides and which primitive shapes it, and, where one is written, when not to use a decision model for it.
 
-Evidence recorded for this pattern's rows (reports counted, not a verdict; a row may count more than once): official documentation 3 · call site 222 · wire shape 4 · example only 0 · independent reports 12 · negative results 1 · no file cited 4. “Independent” = a benchmark not flagged vendor-reported, not reproduced by this repository. [Every pattern side by side](../shape.md#evidence-by-decision-pattern).
+Evidence recorded for this pattern's rows (reports counted, not a verdict; a row may count more than once): official documentation 3 · call site 223 · wire shape 4 · example only 0 · independent reports 12 · negative results 1 · no file cited 4. “Independent” = a benchmark not flagged vendor-reported, not reproduced by this repository. [Every pattern side by side](../shape.md#evidence-by-decision-pattern).
 
 ## Official material
 
@@ -677,6 +677,9 @@ A *call site* link opens the one file a row cites (`evidence.path`) at `HEAD` of
 
 - **[s1s](https://github.com/cpaczek/s1s)** — System One Search: navigate and trace code with TypeSafe judgments and repository evidence <sub>(upstream description)</sub>
   <sub>`Project` · cpaczek · `TS` · call site [`src/client.ts`](https://github.com/cpaczek/s1s/blob/HEAD/src/client.ts), read 2026-09-22</sub>
+
+- **[Sedum (npm: sedum-cli)](https://github.com/sedum-dev/sedum)** — Plain-English browser end-to-end tests next to Playwright code. In goal mode a Jev Choice picks each next operation (click, type, done or blocked) and its target; authored steps use a Choice per sentence; each verify claim is two Nouls (holds, contradicted). Playwright acts; code applies thresholds.
+  <sub>`Project` · sedum-dev · `TS` · `choice` · `noul` · call site [`packages/provider-typesafe/src/index.ts`](https://github.com/sedum-dev/sedum/blob/HEAD/packages/provider-typesafe/src/index.ts), read 2026-09-30 · ⚠ `unverified claims` `self-submitted`</sub>
 
 - **[slidepilot](https://github.com/harshil1712/slidepilot)** — Voice-driven semantic auto-advance for Slidev, powered by Cloudflare Agents and TypeSafe AI Jev <sub>(upstream description)</sub>
   <sub>`Project` · harshil1712 · `TS` · call site [`apps/worker/src/decision.ts`](https://github.com/harshil1712/slidepilot/blob/HEAD/apps/worker/src/decision.ts), read 2026-09-22</sub>

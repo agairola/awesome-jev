@@ -4,11 +4,11 @@
 
 _在输出到达用户前，按评分标准检查模型产出。_
 
-这个决策的全部已收录例子 —— 共 134 条。同样这些行及其警示也在[索引](../../README.zh-CN.md#输出校验)里；[站点](https://kydlikebtc.github.io/awesome-jev/?p=output-validation&lang=zh)还能按语言、原语和形态进一步筛选。
+这个决策的全部已收录例子 —— 共 135 条。同样这些行及其警示也在[索引](../../README.zh-CN.md#输出校验)里；[站点](https://kydlikebtc.github.io/awesome-jev/?p=output-validation&lang=zh)还能按语言、原语和形态进一步筛选。
 
 这个决策的设计说明见 [docs/patterns.zh-CN.md](../patterns.zh-CN.md#output-validation)：它决定什么、用哪种原语来建模，以及（凡写了的）什么时候不该用决策模型。那一页由模型从[英文版](../patterns.md#output-validation)译写，以英文版为准。 <sub>(机翻)</sub>
 
-本模式各行记录的证据（只是计数，不是结论；一行可能计入多项）：官方文档 2 · 调用点 129 · 接口形态 1 · 仅示例 0 · 独立报告 11 · 负面结果 0 · 未引用文件 4。“独立”指未标 vendor-reported 的基准测试，未经本仓库复现。[各模式并排对照](../shape.zh-CN.md#按决策模式看证据)。 <sub>(机翻)</sub>
+本模式各行记录的证据（只是计数，不是结论；一行可能计入多项）：官方文档 2 · 调用点 130 · 接口形态 1 · 仅示例 0 · 独立报告 11 · 负面结果 0 · 未引用文件 4。“独立”指未标 vendor-reported 的基准测试，未经本仓库复现。[各模式并排对照](../shape.zh-CN.md#按决策模式看证据)。 <sub>(机翻)</sub>
 
 ## 官方材料
 
@@ -391,6 +391,9 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 
 - **[riff](https://github.com/scale-venture-partners/riff)** — 小而快的文风 linter：ruff 式的规则编码，由 Jev 支撑。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · scale-venture-partners · `Py` · 调用点 [`src/riff/jev.py`](https://github.com/scale-venture-partners/riff/blob/HEAD/src/riff/jev.py)，2026-09-22 阅读</sub>
+
+- **[Sedum (npm: sedum-cli)](https://github.com/sedum-dev/sedum)** — 在 Playwright 代码旁用纯英文句子编写浏览器端到端测试。目标模式下，由 Jev 的 Choice 选出每一步操作（点击、输入、完成或受阻）及其目标；逐句步骤每句用一个 Choice；每条验证断言是两个 Noul（holds、contradicted）。动作由 Playwright 执行，阈值由代码判定。 <sub>(机翻)</sub>
+  <sub>`开源项目` · sedum-dev · `TS` · `choice` · `noul` · 调用点 [`packages/provider-typesafe/src/index.ts`](https://github.com/sedum-dev/sedum/blob/HEAD/packages/provider-typesafe/src/index.ts)，2026-09-30 阅读 · ⚠ `宣称未核实` `作者自荐`</sub>
 
 - **[semantic-assert](https://github.com/mondaychen/semantic-assert)** — 用来断言“真实需求”的测试库。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`SDK` · mondaychen · `TS` · 调用点 [`packages/semantic-assert-typesafe/src/client.ts`](https://github.com/mondaychen/semantic-assert/blob/HEAD/packages/semantic-assert-typesafe/src/client.ts)，2026-09-24 阅读</sub>

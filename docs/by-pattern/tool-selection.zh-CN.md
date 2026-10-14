@@ -4,11 +4,11 @@
 
 _智能体下一步该调用哪个工具或动作。_
 
-这个决策的全部已收录例子 —— 共 230 条。同样这些行及其警示也在[索引](../../README.zh-CN.md#工具选择)里；[站点](https://kydlikebtc.github.io/awesome-jev/?p=tool-selection&lang=zh)还能按语言、原语和形态进一步筛选。
+这个决策的全部已收录例子 —— 共 231 条。同样这些行及其警示也在[索引](../../README.zh-CN.md#工具选择)里；[站点](https://kydlikebtc.github.io/awesome-jev/?p=tool-selection&lang=zh)还能按语言、原语和形态进一步筛选。
 
 这个决策的设计说明见 [docs/patterns.zh-CN.md](../patterns.zh-CN.md#tool-selection)：它决定什么、用哪种原语来建模，以及（凡写了的）什么时候不该用决策模型。那一页由模型从[英文版](../patterns.md#tool-selection)译写，以英文版为准。 <sub>(机翻)</sub>
 
-本模式各行记录的证据（只是计数，不是结论；一行可能计入多项）：官方文档 3 · 调用点 222 · 接口形态 4 · 仅示例 0 · 独立报告 12 · 负面结果 1 · 未引用文件 4。“独立”指未标 vendor-reported 的基准测试，未经本仓库复现。[各模式并排对照](../shape.zh-CN.md#按决策模式看证据)。 <sub>(机翻)</sub>
+本模式各行记录的证据（只是计数，不是结论；一行可能计入多项）：官方文档 3 · 调用点 223 · 接口形态 4 · 仅示例 0 · 独立报告 12 · 负面结果 1 · 未引用文件 4。“独立”指未标 vendor-reported 的基准测试，未经本仓库复现。[各模式并排对照](../shape.zh-CN.md#按决策模式看证据)。 <sub>(机翻)</sub>
 
 ## 官方材料
 
@@ -677,6 +677,9 @@ TypeSafe AI 自己发布、归在这个模式下的材料（标为 `official` �
 
 - **[s1s](https://github.com/cpaczek/s1s)** — System One 搜索：用类型化判断与仓库证据导航与追踪代码。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · cpaczek · `TS` · 调用点 [`src/client.ts`](https://github.com/cpaczek/s1s/blob/HEAD/src/client.ts)，2026-09-22 阅读</sub>
+
+- **[Sedum (npm: sedum-cli)](https://github.com/sedum-dev/sedum)** — 在 Playwright 代码旁用纯英文句子编写浏览器端到端测试。目标模式下，由 Jev 的 Choice 选出每一步操作（点击、输入、完成或受阻）及其目标；逐句步骤每句用一个 Choice；每条验证断言是两个 Noul（holds、contradicted）。动作由 Playwright 执行，阈值由代码判定。 <sub>(机翻)</sub>
+  <sub>`开源项目` · sedum-dev · `TS` · `choice` · `noul` · 调用点 [`packages/provider-typesafe/src/index.ts`](https://github.com/sedum-dev/sedum/blob/HEAD/packages/provider-typesafe/src/index.ts)，2026-09-30 阅读 · ⚠ `宣称未核实` `作者自荐`</sub>
 
 - **[slidepilot](https://github.com/harshil1712/slidepilot)** — 给 Slidev 做的语音驱动语义自动翻页，由 Cloudflare Agents 与 Jev 驱动。 <sub>(项目自述)</sub> <sub>(机翻)</sub>
   <sub>`开源项目` · harshil1712 · `TS` · 调用点 [`apps/worker/src/decision.ts`](https://github.com/harshil1712/slidepilot/blob/HEAD/apps/worker/src/decision.ts)，2026-09-22 阅读</sub>

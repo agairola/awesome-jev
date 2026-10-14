@@ -77,7 +77,7 @@ arguments are the hard part. This chooses _which_; something still fills in the
 arguments.
 
 <!-- catalogued-tool-selection:start -->
-**Tool selection** in the catalogue: 230 rows, [each listed with its caveats](by-pattern/tool-selection.md) · [the site's filter](https://kydlikebtc.github.io/awesome-jev/?p=tool-selection&lang=en).
+**Tool selection** in the catalogue: 231 rows, [each listed with its caveats](by-pattern/tool-selection.md) · [the site's filter](https://kydlikebtc.github.io/awesome-jev/?p=tool-selection&lang=en).
 <!-- catalogued-tool-selection:end -->
 
 ---
@@ -162,7 +162,7 @@ says the output is weak; it does not say how to fix it. Pair it with a generativ
 critique for the cases it rejects.
 
 <!-- catalogued-output-validation:start -->
-**Output validation** in the catalogue: 134 rows, [each listed with its caveats](by-pattern/output-validation.md) · [the site's filter](https://kydlikebtc.github.io/awesome-jev/?p=output-validation&lang=en).
+**Output validation** in the catalogue: 135 rows, [each listed with its caveats](by-pattern/output-validation.md) · [the site's filter](https://kydlikebtc.github.io/awesome-jev/?p=output-validation&lang=en).
 <!-- catalogued-output-validation:end -->
 
 ---

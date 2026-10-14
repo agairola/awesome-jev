@@ -50,7 +50,7 @@
 **何时不该用：** 挑工具需要先拟定计划时，或者难点在于参数时。这里只选择*用哪个*；参数仍需别的东西来填。
 
 <!-- catalogued-tool-selection:start -->
-目录中的**工具选择**：共 230 条，[逐条列出并附警示](by-pattern/tool-selection.zh-CN.md) · [站点筛选](https://kydlikebtc.github.io/awesome-jev/?p=tool-selection&lang=zh)。
+目录中的**工具选择**：共 231 条，[逐条列出并附警示](by-pattern/tool-selection.zh-CN.md) · [站点筛选](https://kydlikebtc.github.io/awesome-jev/?p=tool-selection&lang=zh)。
 <!-- catalogued-tool-selection:end -->
 
 ---
@@ -112,7 +112,7 @@
 **何时不该用：** 当缺陷需要被解释、而不只是被发现时。分数说明输出不好，却不说明怎么改。对被它拒掉的情况，配上一段生成式的点评。
 
 <!-- catalogued-output-validation:start -->
-目录中的**输出校验**：共 134 条，[逐条列出并附警示](by-pattern/output-validation.zh-CN.md) · [站点筛选](https://kydlikebtc.github.io/awesome-jev/?p=output-validation&lang=zh)。
+目录中的**输出校验**：共 135 条，[逐条列出并附警示](by-pattern/output-validation.zh-CN.md) · [站点筛选](https://kydlikebtc.github.io/awesome-jev/?p=output-validation&lang=zh)。
 <!-- catalogued-output-validation:end -->
 
 ---
