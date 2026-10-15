@@ -240,7 +240,7 @@ latency wins from batching a briefing into one call rather than many.
 That needs two round trips.
 
 <!-- catalogued-fan-out:start -->
-**Speculative fan-out** in the catalogue: 32 rows, [each listed with its caveats](by-pattern/fan-out.md) · [the site's filter](https://kydlikebtc.github.io/awesome-jev/?p=fan-out&lang=en).
+**Speculative fan-out** in the catalogue: 33 rows, [each listed with its caveats](by-pattern/fan-out.md) · [the site's filter](https://kydlikebtc.github.io/awesome-jev/?p=fan-out&lang=en).
 <!-- catalogued-fan-out:end -->
 
 ---

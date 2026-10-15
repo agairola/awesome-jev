@@ -174,7 +174,7 @@
 **何时不该用：** 当后一个问题的措辞取决于前一个问题的答案时。那需要两次往返。
 
 <!-- catalogued-fan-out:start -->
-目录中的**并行扇出**：共 32 条，[逐条列出并附警示](by-pattern/fan-out.zh-CN.md) · [站点筛选](https://kydlikebtc.github.io/awesome-jev/?p=fan-out&lang=zh)。
+目录中的**并行扇出**：共 33 条，[逐条列出并附警示](by-pattern/fan-out.zh-CN.md) · [站点筛选](https://kydlikebtc.github.io/awesome-jev/?p=fan-out&lang=zh)。
 <!-- catalogued-fan-out:end -->
 
 ---
