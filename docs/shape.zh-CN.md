@@ -6,7 +6,7 @@
 
 > 本页中文说明由模型撰写（机翻），未经人工审校。
 
-把本目录当作一个数据集来描述的计数，每当 `catalog.json` 变化就重新生成；其背后最新一次链接检查的日期是 **2026-10-14**。这些数字描述的是目录收录了什么——即经由兄弟目录、本仓库的发现流程和贡献者进入目录的内容——而不是整个生态。star 区间是热度信号，不是质量结论；这里的一切都没有被本仓库运行或复现。`python3 scripts/counts.py` 以文本形式打印同样的数字；主要数字见[状态页](status.md)。
+把本目录当作一个数据集来描述的计数，每当 `catalog.json` 变化就重新生成；其背后最新一次链接检查的日期是 **2026-10-15**。这些数字描述的是目录收录了什么——即经由兄弟目录、本仓库的发现流程和贡献者进入目录的内容——而不是整个生态。star 区间是热度信号，不是质量结论；这里的一切都没有被本仓库运行或复现。`python3 scripts/counts.py` 以文本形式打印同样的数字；主要数字见[状态页](status.md)。
 
 ## 按决策模式看证据
 
@@ -22,7 +22,7 @@
 | [重试控制](by-pattern/retry-control.zh-CN.md) | 7 | 0 | 6 | 1 | 0 | 0 | 0 | 0 |
 | [人工升级](by-pattern/human-escalation.zh-CN.md) | 69 | 7 | 54 | 5 | 0 | 10 | 0 | 10 |
 | [模型路由](by-pattern/model-routing.zh-CN.md) | 45 | 2 | 38 | 1 | 0 | 0 | 1 | 6 |
-| [并行扇出](by-pattern/fan-out.zh-CN.md) | 32 | 3 | 25 | 1 | 0 | 1 | 0 | 6 |
+| [并行扇出](by-pattern/fan-out.zh-CN.md) | 33 | 3 | 25 | 1 | 0 | 1 | 0 | 7 |
 | [检索与排序](by-pattern/search-ranking.zh-CN.md) | 64 | 3 | 60 | 0 | 0 | 6 | 1 | 4 |
 | [结构化抽取](by-pattern/data-extraction.zh-CN.md) | 17 | 4 | 13 | 0 | 0 | 1 | 0 | 4 |
 | [分类](by-pattern/classification.zh-CN.md) | 120 | 4 | 110 | 1 | 0 | 12 | 1 | 9 |
@@ -41,7 +41,7 @@
 
 | 语言 | 行数 |
 | --- | --- |
-| `python` | 459 |
+| `python` | 460 |
 | `typescript` | 405 |
 | `javascript` | 152 |
 | `rust` | 52 |
@@ -68,7 +68,7 @@
 | 只有 `typesafe-api` | 1093 |
 | 至少有一个值对应[兼容性表](compatibility.md)中的其他接入面（网关、SDK 或框架），且不含 `self-hosted` | 36 |
 | 除 `typesafe-api` 外只记录没有任何兼容性接入面对应的值（示例运行所在的主机、工具或框架，或该表未描述的路径），且不含 `self-hosted` | 29 |
-| 含 `self-hosted`，无论还记录了什么 | 40 |
+| 含 `self-hosted`，无论还记录了什么 | 41 |
 | 未记录任何值 | 19 |
 
 各行记录的每个值，以及对应它的兼容性接入面：
@@ -76,7 +76,7 @@
 | 值 | 兼容性接入面 | 行数 |
 | --- | --- | --- |
 | `typesafe-api` | `typesafe-native` | 1121 |
-| `self-hosted` | — | 40 |
+| `self-hosted` | — | 41 |
 | `vercel-ai-gateway` | `vercel-eval`, `vercel-compat` | 15 |
 | `claude-code` | — | 9 |
 | `openrouter` | `openrouter` | 7 |
@@ -127,7 +127,7 @@
 | 视频 (`video`) | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — |
 | 基准测试 (`benchmark`) | 72 | 69 | 51 | 11 | 4 | 1 | 1 | 1 | 不足 10 |
 | 讨论 (`discussion`) | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — |
-| Jev 替代实现 (`alternative`) | 59 | 58 | 11 | 25 | 14 | 6 | 2 | 0 | ★10+ |
+| Jev 替代实现 (`alternative`) | 60 | 59 | 11 | 26 | 14 | 6 | 2 | 0 | ★10+ |
 
 ## 按决策模式看语言
 
@@ -143,7 +143,7 @@
 | [重试控制](by-pattern/retry-control.zh-CN.md) | 2 | 2 | 1 | 0 | 0 | 1 | 1 |
 | [人工升级](by-pattern/human-escalation.zh-CN.md) | 41 | 22 | 0 | 1 | 0 | 0 | 2 |
 | [模型路由](by-pattern/model-routing.zh-CN.md) | 16 | 19 | 9 | 0 | 0 | 1 | 0 |
-| [并行扇出](by-pattern/fan-out.zh-CN.md) | 15 | 12 | 3 | 1 | 1 | 1 | 4 |
+| [并行扇出](by-pattern/fan-out.zh-CN.md) | 16 | 12 | 3 | 1 | 1 | 1 | 4 |
 | [检索与排序](by-pattern/search-ranking.zh-CN.md) | 28 | 19 | 5 | 7 | 2 | 0 | 4 |
 | [结构化抽取](by-pattern/data-extraction.zh-CN.md) | 10 | 3 | 4 | 0 | 0 | 0 | 0 |
 | [分类](by-pattern/classification.zh-CN.md) | 41 | 36 | 24 | 3 | 0 | 0 | 13 |
@@ -173,7 +173,7 @@
 
 ## 作者
 
-有 1099 行写明了作者，共 992 位不同的作者（按显示名比较，不区分大小写）。其中 917 位在本目录只有一行，60 位有两行，15 位有三行或更多；单个作者最多有 11 行。本页不列出任何作者的名字：它显示的是目录的集中程度，而不是谁在贡献。
+有 1100 行写明了作者，共 993 位不同的作者（按显示名比较，不区分大小写）。其中 918 位在本目录只有一行，60 位有两行，15 位有三行或更多；单个作者最多有 11 行。本页不列出任何作者的名字：它显示的是目录的集中程度，而不是谁在贡献。
 
 ## 随时间的变化
 

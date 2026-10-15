@@ -94379,6 +94379,54 @@
     "link_status": 200
   },
   {
+    "slug": "videojev",
+    "title": "VideoJev",
+    "summary": "Open System One video models that score temporal candidates and multiple-choice options for several queries over one shared video prefix, then return intervals, answers, and candidate probabilities without text generation.",
+    "summary_zh": "开源 System One 视频模型，在共享视频前缀上对多个问题的时间候选和多选答案直接打分，返回区间、答案和候选概率，无需生成文本。",
+    "zh_machine": true,
+    "url": "https://github.com/MCG-NJU/VideoJev",
+    "kind": "alternative",
+    "patterns": [
+      "fan-out"
+    ],
+    "languages": [
+      "python"
+    ],
+    "platforms": [
+      "self-hosted"
+    ],
+    "author": {
+      "name": "Yuhan Zhu and collaborators",
+      "handle": "zyuhan1999",
+      "url": "https://github.com/zyuhan1999"
+    },
+    "has_code": true,
+    "stars": 91,
+    "repo_license": "Apache-2.0",
+    "flags": [
+      "not-jev",
+      "self-submitted",
+      "code-untested"
+    ],
+    "notes": "Independent System One model with its own grounding/choice interface; no TypeSafe API call or drop-in endpoint. Public source inspected; inference was not rerun for this catalog submission. Catalog summaries drafted with AI assistance at co-author Yuhan Zhu’s request.",
+    "notes_zh": "独立的 System One 模型，采用自己的 grounding/choice 接口，不调用 TypeSafe API，也不是兼容端点。本次收录申请检查了公开源码，未重新运行推理；目录摘要由 AI 应共同作者 Yuhan Zhu 的要求协助起草。",
+    "first_seen": "2026-10-15",
+    "checked": "2026-10-15",
+    "link_status": 200,
+    "evidence_none": "no-jev-call-site",
+    "sources": [
+      {
+        "catalog": "author submission",
+        "url": "https://github.com/kydlikebtc/awesome-jev/pull/47"
+      },
+      {
+        "catalog": "arXiv paper",
+        "url": "https://arxiv.org/abs/2610.18615"
+      }
+    ],
+    "license": "CC0-1.0"
+  },
+  {
     "slug": "von",
     "title": "von",
     "summary": "The open-source System One decision model. Sub-15ms, non-autoregressive, local drop-in alternative to TypeSafe Jev.",
